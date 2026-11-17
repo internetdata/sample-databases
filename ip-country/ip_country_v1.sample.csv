@@ -1,0 +1,101 @@
+start_ip,end_ip,continent,continent_name,country,country_name,timezone,currency_code,currency_name,currency_symbol,flag_emoji,flag_unicode
+1.0.0.0,1.0.0.255,OC,Oceania,AU,Australia,Australia/Brisbane,AUD,Dollar,A$,🇦🇺,U+1F1E6 U+1F1FA
+12.2.154.88,12.2.154.95,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+12.55.177.56,12.55.177.99,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+12.163.115.240,12.163.115.247,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+12.216.239.224,12.216.239.231,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+15.235.88.128,15.235.88.255,NA,North America,MX,Mexico,America/Mexico_City,MXN,Peso,MX$,🇲🇽,U+1F1F2 U+1F1FD
+24.41.11.142,24.41.11.146,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+24.79.80.30,24.79.80.31,NA,North America,CA,Canada,America/Winnipeg,CAD,Dollar,CA$,🇨🇦,U+1F1E8 U+1F1E6
+31.210.20.0,31.210.20.255,NA,North America,MX,Mexico,America/Mexico_City,MXN,Peso,MX$,🇲🇽,U+1F1F2 U+1F1FD
+38.122.47.136,38.122.47.139,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+40.134.102.152,40.134.102.159,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+43.254.56.0,43.254.59.255,OC,Oceania,TL,Timor Leste,Asia/Dili,USD,Dollar,$,🇹🇱,U+1F1F9 U+1F1F1
+47.44.156.48,47.44.156.51,NA,North America,US,United States,America/Detroit,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+50.56.1.144,50.56.1.159,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+50.71.238.147,50.71.238.160,NA,North America,CA,Canada,America/Winnipeg,CAD,Dollar,CA$,🇨🇦,U+1F1E8 U+1F1E6
+51.79.187.236,51.79.187.239,AS,Asia,SG,Singapore,Asia/Singapore,SGD,Dollar,SGD,🇸🇬,U+1F1F8 U+1F1EC
+62.23.23.100,62.23.23.103,EU,Europe,FR,France,Europe/Paris,EUR,Euro,€,🇫🇷,U+1F1EB U+1F1F7
+63.112.41.88,63.112.41.111,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+63.224.127.200,63.224.127.255,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+64.45.179.0,64.45.179.255,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+64.191.108.64,64.191.108.95,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+65.116.219.224,65.116.219.239,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+65.202.240.128,65.202.243.183,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+66.54.213.96,66.54.213.103,NA,North America,CA,Canada,America/Vancouver,CAD,Dollar,CA$,🇨🇦,U+1F1E8 U+1F1E6
+66.153.116.244,66.153.116.255,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+67.113.12.136,67.113.12.143,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+67.135.151.224,67.135.151.255,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+68.126.132.248,68.126.137.55,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+68.147.158.122,68.147.158.122,NA,North America,CA,Canada,America/Edmonton,CAD,Dollar,CA$,🇨🇦,U+1F1E8 U+1F1E6
+68.150.214.123,68.150.214.128,NA,North America,CA,Canada,America/Toronto,CAD,Dollar,CA$,🇨🇦,U+1F1E8 U+1F1E6
+69.74.27.216,69.74.29.45,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+69.232.117.32,69.232.117.47,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+70.77.166.43,70.77.166.43,NA,North America,CA,Canada,America/Edmonton,CAD,Dollar,CA$,🇨🇦,U+1F1E8 U+1F1E6
+71.156.14.0,71.156.14.15,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+74.10.219.216,74.10.219.223,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+74.46.137.117,74.46.137.117,NA,North America,US,United States,America/Phoenix,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+75.19.160.0,75.19.175.255,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+78.157.192.0,78.157.223.255,EU,Europe,GB,United Kingdom,Europe/London,GBP,Pound,£,🇬🇧,U+1F1EC U+1F1E7
+86.102.78.160,86.102.79.191,EU,Europe,RU,Russia,Asia/Irkutsk,RUB,Ruble,RUB,🇷🇺,U+1F1F7 U+1F1FA
+93.152.4.128,93.152.4.191,EU,Europe,GB,United Kingdom,Europe/London,GBP,Pound,£,🇬🇧,U+1F1EC U+1F1E7
+97.87.84.16,97.87.84.23,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+99.73.24.232,99.73.24.239,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+103.204.220.0,103.204.221.255,EU,Europe,ES,Spain,Europe/Madrid,EUR,Euro,€,🇪🇸,U+1F1EA U+1F1F8
+104.132.100.128,104.132.100.131,NA,North America,US,United States,America/Denver,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+109.197.236.0,109.197.239.255,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+131.229.149.31,131.229.149.31,EU,Europe,RO,Romania,Europe/Bucharest,RON,Leu,RON,🇷🇴,U+1F1F7 U+1F1F4
+141.98.92.0,141.98.95.255,EU,Europe,RO,Romania,Europe/Bucharest,RON,Leu,RON,🇷🇴,U+1F1F7 U+1F1F4
+148.66.251.0,148.66.251.255,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+152.232.75.0,152.232.135.255,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+160.34.122.0,160.34.122.255,NA,North America,US,United States,America/Phoenix,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+165.101.59.0,165.101.59.255,AS,Asia,IN,India,Asia/Kolkata,INR,Rupee,₹,🇮🇳,U+1F1EE U+1F1F3
+172.121.150.0,172.121.150.255,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+174.2.86.45,174.2.86.45,NA,North America,CA,Canada,America/Edmonton,CAD,Dollar,CA$,🇨🇦,U+1F1E8 U+1F1E6
+177.125.217.32,177.125.217.39,SA,South America,BR,Brazil,America/Cuiaba,BRL,Real,R$,🇧🇷,U+1F1E7 U+1F1F7
+184.11.73.180,184.11.73.180,NA,North America,US,United States,America/Boise,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+185.66.132.0,185.66.135.255,EU,Europe,DE,Germany,Europe/Berlin,EUR,Euro,€,🇩🇪,U+1F1E9 U+1F1EA
+187.33.231.172,187.33.231.215,SA,South America,BR,Brazil,America/Fortaleza,BRL,Real,R$,🇧🇷,U+1F1E7 U+1F1F7
+189.25.103.153,189.25.103.172,EU,Europe,DE,Germany,Europe/Berlin,EUR,Euro,€,🇩🇪,U+1F1E9 U+1F1EA
+192.165.171.0,192.165.172.255,EU,Europe,GB,United Kingdom,Europe/London,GBP,Pound,£,🇬🇧,U+1F1EC U+1F1E7
+194.103.249.0,194.103.255.255,EU,Europe,SE,Sweden,Europe/Stockholm,SEK,Krona,SEK,🇸🇪,U+1F1F8 U+1F1EA
+195.242.241.0,195.242.241.255,AS,Asia,AF,Afghanistan,Asia/Kabul,AFN,Afghani,AFN,🇦🇫,U+1F1E6 U+1F1EB
+199.227.56.0,199.227.57.255,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+201.117.142.215,201.117.142.221,NA,North America,MX,Mexico,America/Mexico_City,MXN,Peso,MX$,🇲🇽,U+1F1F2 U+1F1FD
+203.23.53.156,203.23.53.157,OC,Oceania,AU,Australia,Australia/Melbourne,AUD,Dollar,A$,🇦🇺,U+1F1E6 U+1F1FA
+205.214.73.184,205.214.73.199,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+207.105.202.0,207.105.207.255,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+208.107.18.0,208.107.19.255,NA,North America,US,United States,America/Denver,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+209.63.55.0,209.63.58.255,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+209.212.170.0,209.212.172.31,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+212.221.74.144,212.221.74.151,EU,Europe,BE,Belgium,Europe/Brussels,EUR,Euro,€,🇧🇪,U+1F1E7 U+1F1EA
+216.101.160.32,216.101.160.39,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+217.28.208.209,217.28.208.209,EU,Europe,RU,Russia,Asia/Yekaterinburg,RUB,Ruble,RUB,🇷🇺,U+1F1F7 U+1F1FA
+2001:470:26:548::,2001:470:26:548:ffff:ffff:ffff:ffff,AS,Asia,KZ,Kazakhstan,Asia/Almaty,KZT,Tenge,KZT,🇰🇿,U+1F1F0 U+1F1FF
+2001:470:1f0f:3b0::,2001:470:1f0f:3b0:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Kentucky/Louisville,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2001:470:ba92::,2001:470:ba92:ffff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Anchorage,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2001:67c:2bd4::,2001:67c:2bd4:ffff:ffff:ffff:ffff:ffff,EU,Europe,SE,Sweden,Europe/Stockholm,SEK,Krona,SEK,🇸🇪,U+1F1F8 U+1F1EA
+2001:1890:132b:f100::,2001:1890:132b:f2ff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2001:1890:1582:b100::,2001:1890:1582:b2ff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2001:1890:1828:b800::,2001:1890:1828:b8ff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2001:1890:19ce:8800::,2001:1890:19ce:8aff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2001:1890:1e39:ad00::,2001:1890:1e39:adff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Kentucky/Louisville,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2001:1890:1f8a:3600::,2001:1890:1f8a:36ff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2401:3620:232:3f::,2401:3620:232:3f:ffff:ffff:ffff:ffff,OC,Oceania,CX,Christmas Island,Indian/Christmas,AUD,Dollar,A$,🇨🇽,U+1F1E8 U+1F1FD
+2600:5800:31e9::,2600:5800:31ef:ffff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2600:5c01:6865::,2600:5c01:6865:ffff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Kentucky/Louisville,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2600:6c38:ab3::,2600:6c38:ab4:ffff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2605:59c7:a000:9a2::,2605:59c7:a000:9a2:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2606:40:2030:e000::,2606:40:2030:e3ff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/New_York,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2607:11c0::,2607:11c0:ffff:ffff:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Chicago,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2804:8d48::,2804:8d48:ffff:ffff:ffff:ffff:ffff:ffff,SA,South America,BR,Brazil,America/Sao_Paulo,BRL,Real,R$,🇧🇷,U+1F1E7 U+1F1F7
+2a01:4f9:4a:10c6::,2a01:4f9:4a:10c6:ffff:ffff:ffff:ffff,EU,Europe,DE,Germany,Europe/Berlin,EUR,Euro,€,🇩🇪,U+1F1E9 U+1F1EA
+2a02:6a0:9000::,2a02:6a0:ffff:ffff:ffff:ffff:ffff:ffff,EU,Europe,CH,Switzerland,Europe/Zurich,CHF,Franc,CHF,🇨🇭,U+1F1E8 U+1F1ED
+2a03:ea80::,2a03:ea80:ffff:ffff:ffff:ffff:ffff:ffff,EU,Europe,ES,Spain,Europe/Madrid,EUR,Euro,€,🇪🇸,U+1F1EA U+1F1F8
+2a09:bac0:1000:216::,2a09:bac0:1000:216:ffff:ffff:ffff:ffff,AS,Asia,SG,Singapore,Asia/Singapore,SGD,Dollar,SGD,🇸🇬,U+1F1F8 U+1F1EC
+2a09:bac1:5080:4250::,2a09:bac1:5080:4250:ffff:ffff:ffff:ffff,NA,North America,MX,Mexico,America/Hermosillo,MXN,Peso,MX$,🇲🇽,U+1F1F2 U+1F1FD
+2a09:bac1:76e0:ae9::,2a09:bac1:76e0:aef:ffff:ffff:ffff:ffff,NA,North America,US,United States,America/Los_Angeles,USD,Dollar,$,🇺🇸,U+1F1FA U+1F1F8
+2a0e:4206:5002::,2a0e:4206:5fff:ffff:ffff:ffff:ffff:ffff,NA,North America,DO,Dominican Republic,America/Santo_Domingo,DOP,Peso,DOP,🇩🇴,U+1F1E9 U+1F1F4
+2a10:bf81:8130::,2a10:bf81:8137:ffff:ffff:ffff:ffff:ffff,AF,Africa,MZ,Mozambique,Africa/Maputo,MZN,Metical,MZN,🇲🇿,U+1F1F2 U+1F1FF
+2a10:bf84:a600::,2a10:bf84:a607:ffff:ffff:ffff:ffff:ffff,AS,Asia,QA,Qatar,Asia/Qatar,QAR,Rial,QAR,🇶🇦,U+1F1F6 U+1F1E6
+2a10:bf87:ca70::,2a10:bf87:ca77:ffff:ffff:ffff:ffff:ffff,AS,Asia,SG,Singapore,Asia/Singapore,SGD,Dollar,SGD,🇸🇬,U+1F1F8 U+1F1EC

@@ -1,0 +1,101 @@
+asn,name,country,registry,allocated,domain,type,num_ips,num_prefixes4,num_prefixes6,rpki_valid,rpki_invalid,rpki_not_found
+1,"Level 3 Parent, LLC",US,arin,2001-09-20,level3.com,isp,6912,129,0,0,0,129
+1263,National Aeronautics and Space Administration,US,arin,1991-06-27,nasa.gov,government,0,0,0,0,0,0
+2587,OOO FREEnet Group,RU,ripe,1995-03-23,free.net,isp,256,1,0,1,0,0
+3934,"NTT America, Inc.",US,arin,2001-01-31,ntt.net,isp,0,0,0,0,0,0
+5194,United States Department of Defense (DoD),US,arin,1995-05-09,mail.mil,government,0,0,0,0,0,0
+6521,Lumpnet,US,arin,2024-06-07,lump.net,business,0,0,0,0,0,0
+7845,"Allstream Business US, LLC",US,arin,1997-01-27,,isp,0,0,0,0,0,0
+9384,MIKU NETWORK LIMITED,CN,apnic,2022-04-28,,isp,0,0,0,0,0,0
+10648,Pacific Brokerage Services,US,arin,1997-10-15,tradepbs.com,business,1280,5,0,5,0,0
+11928,"Hachette Book Group, Inc.",US,arin,1999-02-08,hbgusa.com,business,1536,5,0,3,0,2
+13556,IBASIS INC.,US,arin,1999-09-13,ibasis.net,isp,256,1,0,0,0,1
+14838,"Wix.Com, Inc.",US,arin,2006-10-25,wix.com,hosting,0,0,0,0,0,0
+16456,M2ngage Telecommunications II Corp.,US,arin,2000-05-01,m2ngage2.com,isp,0,0,0,0,0,0
+17738,Agen Biomedical Ltd,AU,apnic,2001-07-26,,business,0,0,0,0,0,0
+19015,GreenPath Inc,US,arin,2013-06-04,greenpath.com,business,256,1,0,0,0,1
+20295,Filer Mutual Telephone Company,US,arin,2001-04-20,filertel.net,isp,12288,6,1,7,0,0
+21929,Federal Emergency Management Agency,US,arin,2001-07-13,fema.gov,government,0,0,0,0,0,0
+23210,Denton Independent School District,US,arin,2007-11-15,dentonisd.org,education,0,0,0,0,0,0
+24501,MAJOREL INDIA PRIVATE LIMITED,IN,apnic,2005-12-01,arvatoindia.com,business,0,0,0,0,0,0
+26094,"TierPoint, LLC",US,arin,2007-10-25,tierpoint.com,hosting,0,0,0,0,0,0
+27363,Swiss Re America Holding Corporation,US,arin,2003-02-20,swissre.com,business,512,2,0,1,0,1
+28815,Lerkins Group Sp. z o. o.,PL,ripe,2003-03-03,lerkins.com,business,1024,4,0,4,0,0
+30379,Parish of Jefferson,US,arin,2018-05-31,jeffparish.net,government,256,1,0,0,0,1
+31986,"Tenaska, Inc.",US,arin,2024-12-12,tenaska.com,business,512,2,0,2,0,0
+33272,Interlochen Center for the Arts,US,arin,2004-11-10,interlochen.org,education,0,0,0,0,0,0
+34835,Michal Paduch trading as PaduchNET,PL,ripe,2019-09-27,paduchnet.pl,isp,1024,1,0,0,0,1
+36326,Techwebhosting Internet Solutions LLC,US,arin,2019-05-30,edgenode.us,hosting,512,3,0,3,0,0
+37897,"AXEL ENTERMEDIA, INC.",JP,apnic,2006-01-30,axelnetworks.co.jp,isp,4608,2,1,0,0,3
+39304,"JOINT-STOCK COMPANY ""MOSCOW ENERGY COMMUNICATION NODE""",RU,ripe,2018-06-01,,isp,0,0,0,0,0,0
+40690,Exaion Inc.,CA,arin,2023-09-12,exaion.com,hosting,256,1,0,1,0,0
+42166,HanseWerk Natur GmbH,DE,ripe,2007-01-03,,business,256,1,0,1,0,0
+43701,STABILUS GmbH,DE,ripe,2014-12-22,stabilus.com,business,256,1,0,1,0,0
+45144,Net Onboard Sdn Bhd - Quality & Reliable Cloud Hosting Provider,MY,apnic,2010-05-10,netonboard.cloud,hosting,4352,19,0,18,0,1
+46542,"Avid Technology, Inc.",US,arin,2008-10-10,avid.com,business,512,2,0,0,0,2
+47889,SUNNET LLC,UA,ripe,2008-09-11,sunnet.com.ua,isp,12288,2,0,0,0,2
+49308,Hyp Payment Solutions Ltd,IL,ripe,2009-05-15,,business,512,2,0,2,0,0
+50705,"PRZEDSIEBIORSTWO TELEKOMUNIKACYJNE ""TELGAM"" SPOLKA AKCYJNA",PL,ripe,2010-03-11,telgam.pl,isp,3072,12,2,14,0,0
+52081,The Commercial Real Estate Co. K.S.C.C,KW,ripe,2010-12-23,,business,768,3,0,1,0,2
+53547,Lee Hecht Harrison LLC,US,arin,2010-06-09,lhh.com,business,0,0,0,0,0,0
+54831,"DATA AXLE, INC",US,arin,2012-09-05,data-axle.com,business,0,0,0,0,0,0
+56243,Indonusa System Integrator Prima PT.,ID,apnic,2011-05-03,indonusa.net.id,isp,512,2,0,2,0,0
+57645,OOO LICARD,RU,ripe,2011-12-27,licard.com,business,1024,4,0,1,0,3
+59058,"Beijng EastNet Technology Co.,Ltd",CN,apnic,2013-09-09,east263.com,isp,0,0,0,0,0,0
+60479,Exclusief.net BV,NL,ripe,2013-07-12,exclusief.net,hosting,1024,5,0,5,0,0
+61936,VIATEC TELECOMUNICAÇÕES LTDA,BR,lacnic,2014-06-09,viatectelecom.com.br,isp,2048,6,5,11,0,0
+63253,United States Senate Federal Credit Union,US,arin,2015-02-23,ussfcu.org,business,256,1,0,0,0,1
+131229,"Provider of cheap, reliable dedicated hosting in Australia",AU,apnic,2009-09-15,oneprovider.com.au,hosting,0,0,0,0,0,0
+132476,Compass Education Pty Ltd,AU,apnic,2016-08-24,compass.education,business,256,1,0,1,0,0
+133742,State Trading Organization Plc,MV,apnic,2016-09-26,sto.mv,business,256,1,1,2,0,0
+134991,BAO XUN TRADING LIMITED,HK,apnic,2015-12-22,,business,0,0,0,0,0,0
+136246,Tomattos Technologies Ltd.,BD,apnic,2017-01-30,tomattos.com,hosting,2048,8,0,8,0,0
+137508,"Toko Communications Co., Ltd.",JP,ripe,2018-03-12,tokowa.com,isp,1792,5,1,5,0,1
+138762,Sadaa Smartlinks Communication Private Limited,IN,apnic,2019-02-11,smartlinks.in,isp,512,3,1,4,0,0
+140024,PT Pelabuhan Indonesia III (Persero),ID,apnic,2019-12-13,pelindo.co.id,government,256,1,0,0,0,1
+141283,Agile Netlink Private Limited,IN,apnic,2020-10-09,,isp,512,2,0,2,0,0
+142531,SPRIOC WEB PRIVATE LIMITED,IN,apnic,2021-06-18,,isp,512,2,0,2,0,0
+143772,,CN,apnic,2021-05-07,,business,0,0,1,1,0,0
+145009,,CN,apnic,2021-05-07,,business,0,0,1,1,0,0
+146246,,CN,apnic,2021-05-07,,business,0,0,1,1,0,0
+147486,"Jorhat Medical College & Hospital, Jorhat",IN,apnic,2021-10-19,,education,0,0,0,0,0,0
+148723,"Krishna Institute of Medical Sciences, Karad",IN,apnic,2021-10-19,,education,0,0,0,0,0,0
+149970,PT Bukit Asam Tbk,ID,apnic,2022-06-16,bukitasam.co.id,business,512,2,0,0,0,2
+151220,"Zhejiang Guiyu Technology Co., Ltd.",CN,apnic,2023-05-08,sihe.ai,hosting,0,0,0,0,0,0
+152470,In2it Information Technology Pty Ltd,AU,apnic,2024-02-08,in2it.net.au,isp,0,0,0,0,0,0
+153724,A K DIGI-TECH SOLUTIONS PRIVATE LIMITED,IN,apnic,2025-03-20,,business,0,0,0,0,0,0
+154970,Cyber X,BD,apnic,2026-09-30,datacorelink.com,hosting,0,0,0,0,0,0
+197926,Itel Solutions sp. z o.o.,PL,ripe,2023-07-04,itel-solutions.pl,isp,512,1,0,1,0,0
+199225,PFG Real Estate AG,CH,ripe,2012-09-21,,business,256,1,0,1,0,0
+200515,Gruppa Polyplastic LLC,RU,ripe,2015-06-18,polyplastic.ru,business,512,2,0,1,0,1
+201812,IL Technologies Group Limited,CY,ripe,2014-07-07,iltechgroup.com,business,1024,1,0,0,0,1
+203105,Blahaj Internet Ltd,GB,ripe,2022-08-29,as203105.net,isp,256,1,1,2,0,0
+204392,Koleje Dolnoslaskie S.A.,PL,ripe,2018-03-20,kolejedolnoslaskie.eu,business,256,1,0,1,0,0
+205680,Travel Communication SIA,LV,ripe,2017-06-26,travelcom.lv,business,768,3,0,0,0,3
+206980,AntiDDoS Solutions LLC,US,ripe,2016-09-28,antiddos.solutions,hosting,2048,8,0,4,0,4
+208327,Toke Hoiland-Jorgensen,DK,ripe,2019-08-26,toke.dk,business,768,3,1,4,0,0
+209635,Red Matter Limited,GB,ripe,2019-01-02,redmatter.com,business,256,1,1,2,0,0
+210945,Grupa Pracuj S.A.,PL,ripe,2021-08-04,pracuj.pl,business,256,1,1,1,0,1
+212272,OOO VTC-MOBILE,RU,ripe,2020-11-26,vtcmobile.ru,isp,256,1,0,0,0,1
+213635,DSW Kristall AG & Co KG,AT,ripe,2025-01-03,swarovski.com,hosting,1792,7,0,7,0,0
+215072,Tawuniya Insurance JSC,SA,ripe,2024-04-18,tawuniya.com,business,768,3,0,0,0,3
+216469,Ismail Fayaz trading as OAKLABS,MV,ripe,2023-08-14,pionen.com,business,0,0,1,1,0,0
+219307,Multi Technology Access S.A.L,LB,ripe,2026-06-30,wavesandrights.com,isp,512,2,1,3,0,0
+263419,Edilso Fuchter & Cia Ltda,BR,lacnic,2014-04-08,,isp,2048,3,1,4,0,0
+264892,GENTE TELECOM DO BRASIL LTDA,BR,lacnic,2016-03-24,gentetelecom.com.br,isp,1024,4,1,0,0,5
+266337,M LIMA GOMES & CIA LTDA,BR,lacnic,2016-11-01,clicfacil-placas-telecom.com.br,isp,2048,7,4,10,0,1
+267769,TV CABLE VILLANUEVA S.A.S(TVIDIGITAL),CO,lacnic,2019-02-06,,isp,512,1,1,2,0,0
+269190,apa.com internet,BR,lacnic,2019-07-31,apanet.net.br,isp,1024,7,1,8,0,0
+270533,INFORNET CONEXÃO,BR,lacnic,2020-03-19,inforbarra.com.br,isp,1024,4,0,0,0,4
+271933,AIRMAXTELECOM SOLUCIONES TECNOLOGICAS S.A.,EC,lacnic,2021-07-05,iplus.com.ec,isp,1536,6,3,9,0,0
+273339,Su@net Provedor Ltda,BR,lacnic,2023-09-13,suanetprovedor.com.br,isp,512,1,3,4,0,0
+274659,J. Jacobsen,BR,lacnic,2024-10-08,jejnet.com.br,isp,256,1,1,2,0,0
+328318,Réseau National d'Education et de Recherche du Mali - MALIREN,ML,afrinic,2018-05-23,maliren.ml,education,1024,1,0,1,0,0
+329691,AFRIQUIA S.M.D.C.,MA,afrinic,2026-01-07,akwagroup.com,business,256,1,0,0,0,1
+394323,Toronto Dominion Bank,CA,arin,2015-08-10,,business,0,0,0,0,0,0
+395600,Copyseis Ltd.,CA,arin,2016-10-18,copyseis.com,business,256,1,0,0,0,1
+396882,N3XTWORK LLC,US,arin,2018-05-24,redjacketconsulting.com,business,512,2,0,0,0,2
+398134,Benevis Corp,US,arin,2019-11-06,benevis.com,business,256,1,0,0,0,1
+399400,"Inspiro Relia US, Inc.",US,arin,2021-03-01,inspiro.com,business,512,2,0,0,0,2
+400680,EVERFOX Holdings LLC,US,arin,2024-05-14,everfox.com,business,256,1,0,0,0,1
+401986,Coherently Inc,US,arin,2025-09-17,coherently.com,business,256,1,1,0,0,2

@@ -1,4 +1,4300 @@
 {
     "license": "CC BY-SA 4.0",
-    "datasets": []
+    "datasets": [
+        {
+            "id": "vpn_ip_v1",
+            "name": "VPN IP",
+            "summary": "IPs operated as commercial VPN exit infrastructure.",
+            "folder": "vpn-ip",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/vpn-ip/vpn-ip",
+            "page": "https://internetdata.io/databases/vpn-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "vpn-ip/vpn_ip_v1.sample.csv",
+                    "csvgz": "vpn-ip/vpn_ip_v1.sample.csv.gz",
+                    "mmdb": "vpn-ip/vpn_ip_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 14895525,
+                "size": {
+                    "csvgz": 107835621,
+                    "mmdb": 90969684
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "vpn_ip_extended_v1",
+            "name": "VPN IP Extended",
+            "summary": "VPN IP with the evidence behind every range.",
+            "folder": "vpn-ip-extended",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/vpn-ip/vpn-ip-extended",
+            "page": "https://internetdata.io/databases/vpn-ip-extended",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "vpn-ip-extended/vpn_ip_extended_v1.sample.csv",
+                    "csvgz": "vpn-ip-extended/vpn_ip_extended_v1.sample.csv.gz",
+                    "mmdb": "vpn-ip-extended/vpn_ip_extended_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 15516836,
+                "size": {
+                    "csvgz": 116623631,
+                    "mmdb": 146327520
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "method",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "method",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "hosting_ip_v1",
+            "name": "Hosting IP",
+            "summary": "IPs owned and operated by hosting and cloud providers.",
+            "folder": "hosting-ip",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/hosting-ip/hosting-ip",
+            "page": "https://internetdata.io/databases/hosting-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "hosting-ip/hosting_ip_v1.sample.csv",
+                    "csvgz": "hosting-ip/hosting_ip_v1.sample.csv.gz",
+                    "mmdb": "hosting-ip/hosting_ip_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 483920,
+                "size": {
+                    "csvgz": 3444592,
+                    "mmdb": 5955814
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "tor_ip_v1",
+            "name": "Tor IP",
+            "summary": "Currently-active Tor node IPs.",
+            "folder": "tor-ip",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": true,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/tor-ip",
+            "page": "https://internetdata.io/databases/tor-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "tor-ip/tor_ip_v1.sample.csv",
+                    "csvgz": "tor-ip/tor_ip_v1.sample.csv.gz",
+                    "mmdb": "tor-ip/tor_ip_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 13825,
+                "size": {
+                    "csvgz": 116012,
+                    "mmdb": 958356
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "relay_ip_v1",
+            "name": "Relay IP",
+            "summary": "IPs of privacy relays and enterprise web gateways.",
+            "folder": "relay-ip",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": true,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/relay-ip/relay-ip",
+            "page": "https://internetdata.io/databases/relay-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "relay-ip/relay_ip_v1.sample.csv",
+                    "csvgz": "relay-ip/relay_ip_v1.sample.csv.gz",
+                    "mmdb": "relay-ip/relay_ip_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 176223,
+                "size": {
+                    "csvgz": 1186493,
+                    "mmdb": 1107705
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "dcproxy_ip_1d_v1",
+            "name": "Datacenter Proxy IP 1d",
+            "summary": "Datacenter-hosted proxy IPs seen in the last 24 hours, with provider attribution.",
+            "folder": "dcproxy-ip-1d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/dcproxy-ip/dcproxy-ip-1d",
+            "page": "https://internetdata.io/databases/datacenter-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "dcproxy-ip-1d/dcproxy_ip_1d_v1.sample.csv",
+                    "csvgz": "dcproxy-ip-1d/dcproxy_ip_1d_v1.sample.csv.gz",
+                    "mmdb": "dcproxy-ip-1d/dcproxy_ip_1d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 682213,
+                "size": {
+                    "csvgz": 1966186,
+                    "mmdb": 709170
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "dcproxy_ip_7d_v1",
+            "name": "Datacenter Proxy IP 7d",
+            "summary": "Datacenter-hosted proxy IPs seen in the last 7 days, with provider attribution.",
+            "folder": "dcproxy-ip-7d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/dcproxy-ip/dcproxy-ip-7d",
+            "page": "https://internetdata.io/databases/datacenter-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "dcproxy-ip-7d/dcproxy_ip_7d_v1.sample.csv",
+                    "csvgz": "dcproxy-ip-7d/dcproxy_ip_7d_v1.sample.csv.gz",
+                    "mmdb": "dcproxy-ip-7d/dcproxy_ip_7d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 767914,
+                "size": {
+                    "csvgz": 2579458,
+                    "mmdb": 2429039
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "dcproxy_ip_14d_v1",
+            "name": "Datacenter Proxy IP 14d",
+            "summary": "Datacenter-hosted proxy IPs seen in the last 14 days, with provider attribution.",
+            "folder": "dcproxy-ip-14d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/dcproxy-ip/dcproxy-ip-14d",
+            "page": "https://internetdata.io/databases/datacenter-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "dcproxy-ip-14d/dcproxy_ip_14d_v1.sample.csv",
+                    "csvgz": "dcproxy-ip-14d/dcproxy_ip_14d_v1.sample.csv.gz",
+                    "mmdb": "dcproxy-ip-14d/dcproxy_ip_14d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 866443,
+                "size": {
+                    "csvgz": 3226500,
+                    "mmdb": 3611771
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "dcproxy_ip_30d_v1",
+            "name": "Datacenter Proxy IP 30d",
+            "summary": "Datacenter-hosted proxy IPs seen in the last 30 days, with provider attribution.",
+            "folder": "dcproxy-ip-30d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/dcproxy-ip/dcproxy-ip-30d",
+            "page": "https://internetdata.io/databases/datacenter-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "dcproxy-ip-30d/dcproxy_ip_30d_v1.sample.csv",
+                    "csvgz": "dcproxy-ip-30d/dcproxy_ip_30d_v1.sample.csv.gz",
+                    "mmdb": "dcproxy-ip-30d/dcproxy_ip_30d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 1078648,
+                "size": {
+                    "csvgz": 5103039,
+                    "mmdb": 8646120
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "dcproxy_ip_60d_v1",
+            "name": "Datacenter Proxy IP 60d",
+            "summary": "Datacenter-hosted proxy IPs seen in the last 60 days, with provider attribution.",
+            "folder": "dcproxy-ip-60d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/dcproxy-ip/dcproxy-ip-60d",
+            "page": "https://internetdata.io/databases/datacenter-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "dcproxy-ip-60d/dcproxy_ip_60d_v1.sample.csv",
+                    "csvgz": "dcproxy-ip-60d/dcproxy_ip_60d_v1.sample.csv.gz",
+                    "mmdb": "dcproxy-ip-60d/dcproxy_ip_60d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 1277615,
+                "size": {
+                    "csvgz": 6903131,
+                    "mmdb": 15603596
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "dcproxy_ip_90d_v1",
+            "name": "Datacenter Proxy IP 90d",
+            "summary": "Datacenter-hosted proxy IPs seen in the last 90 days, with provider attribution.",
+            "folder": "dcproxy-ip-90d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/dcproxy-ip/dcproxy-ip-90d",
+            "page": "https://internetdata.io/databases/datacenter-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "dcproxy-ip-90d/dcproxy_ip_90d_v1.sample.csv",
+                    "csvgz": "dcproxy-ip-90d/dcproxy_ip_90d_v1.sample.csv.gz",
+                    "mmdb": "dcproxy-ip-90d/dcproxy_ip_90d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 1380411,
+                "size": {
+                    "csvgz": 7864673,
+                    "mmdb": 20729727
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "hits",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "hits_days_pct",
+                        "type": "float"
+                    },
+                    {
+                        "name": "providers_num",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pubproxy_ip_1d_v1",
+            "name": "Public Proxy IP 1d",
+            "summary": "Addresses where public proxies listened or their traffic exited in the last 24 hours, each flagged entry, exit or both.",
+            "folder": "pubproxy-ip-1d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/pubproxy-ip/pubproxy-ip-1d",
+            "page": "https://internetdata.io/databases/public-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "pubproxy-ip-1d/pubproxy_ip_1d_v1.sample.csv",
+                    "csvgz": "pubproxy-ip-1d/pubproxy_ip_1d_v1.sample.csv.gz",
+                    "mmdb": "pubproxy-ip-1d/pubproxy_ip_1d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 16501,
+                "size": {
+                    "csvgz": 120484,
+                    "mmdb": 897949
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pubproxy_ip_7d_v1",
+            "name": "Public Proxy IP 7d",
+            "summary": "Addresses where public proxies listened or their traffic exited in the last 7 days, each flagged entry, exit or both.",
+            "folder": "pubproxy-ip-7d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/pubproxy-ip/pubproxy-ip-7d",
+            "page": "https://internetdata.io/databases/public-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "pubproxy-ip-7d/pubproxy_ip_7d_v1.sample.csv",
+                    "csvgz": "pubproxy-ip-7d/pubproxy_ip_7d_v1.sample.csv.gz",
+                    "mmdb": "pubproxy-ip-7d/pubproxy_ip_7d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 23740,
+                "size": {
+                    "csvgz": 193273,
+                    "mmdb": 1673983
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pubproxy_ip_14d_v1",
+            "name": "Public Proxy IP 14d",
+            "summary": "Addresses where public proxies listened or their traffic exited in the last 14 days, each flagged entry, exit or both.",
+            "folder": "pubproxy-ip-14d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/pubproxy-ip/pubproxy-ip-14d",
+            "page": "https://internetdata.io/databases/public-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "pubproxy-ip-14d/pubproxy_ip_14d_v1.sample.csv",
+                    "csvgz": "pubproxy-ip-14d/pubproxy_ip_14d_v1.sample.csv.gz",
+                    "mmdb": "pubproxy-ip-14d/pubproxy_ip_14d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 28628,
+                "size": {
+                    "csvgz": 246255,
+                    "mmdb": 2285426
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pubproxy_ip_30d_v1",
+            "name": "Public Proxy IP 30d",
+            "summary": "Addresses where public proxies listened or their traffic exited in the last 30 days, each flagged entry, exit or both.",
+            "folder": "pubproxy-ip-30d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/pubproxy-ip/pubproxy-ip-30d",
+            "page": "https://internetdata.io/databases/public-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "pubproxy-ip-30d/pubproxy_ip_30d_v1.sample.csv",
+                    "csvgz": "pubproxy-ip-30d/pubproxy_ip_30d_v1.sample.csv.gz",
+                    "mmdb": "pubproxy-ip-30d/pubproxy_ip_30d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 38592,
+                "size": {
+                    "csvgz": 354042,
+                    "mmdb": 3468548
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pubproxy_ip_60d_v1",
+            "name": "Public Proxy IP 60d",
+            "summary": "Addresses where public proxies listened or their traffic exited in the last 60 days, each flagged entry, exit or both.",
+            "folder": "pubproxy-ip-60d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/pubproxy-ip/pubproxy-ip-60d",
+            "page": "https://internetdata.io/databases/public-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "pubproxy-ip-60d/pubproxy_ip_60d_v1.sample.csv",
+                    "csvgz": "pubproxy-ip-60d/pubproxy_ip_60d_v1.sample.csv.gz",
+                    "mmdb": "pubproxy-ip-60d/pubproxy_ip_60d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 40827,
+                "size": {
+                    "csvgz": 376942,
+                    "mmdb": 3624869
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pubproxy_ip_90d_v1",
+            "name": "Public Proxy IP 90d",
+            "summary": "Addresses where public proxies listened or their traffic exited in the last 90 days, each flagged entry, exit or both.",
+            "folder": "pubproxy-ip-90d",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/pubproxy-ip/pubproxy-ip-90d",
+            "page": "https://internetdata.io/databases/public-proxy-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "pubproxy-ip-90d/pubproxy_ip_90d_v1.sample.csv",
+                    "csvgz": "pubproxy-ip-90d/pubproxy_ip_90d_v1.sample.csv.gz",
+                    "mmdb": "pubproxy-ip-90d/pubproxy_ip_90d_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 43378,
+                "size": {
+                    "csvgz": 400075,
+                    "mmdb": 3781948
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "exit",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "entry",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "protocols",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_proxies",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_usable",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_company_v1",
+            "name": "IP Company",
+            "summary": "The organization that uses each IP range, with its domain and type, and the AS that announces the range.",
+            "folder": "ip-company",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/ip-company",
+            "page": "https://internetdata.io/databases/ip-company",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-company/ip_company_v1.sample.csv",
+                    "csvgz": "ip-company/ip_company_v1.sample.csv.gz",
+                    "mmdb": "ip-company/ip_company_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 10822637,
+                "size": {
+                    "csvgz": 167477824,
+                    "mmdb": 314917063
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "as_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "as_domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "as_type",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "as_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "as_domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "as_type",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "domain_ip_ranges_v1",
+            "name": "Domain IP Ranges",
+            "summary": "Every IP range an organization owns or uses, keyed by its domain, with the name and country registered for each range, one CIDR per row.",
+            "folder": "domain-ip-ranges",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/domain-ip-ranges/domain-ip-ranges",
+            "page": "https://internetdata.io/databases/domain-ip-ranges",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "domain-ip-ranges/domain_ip_ranges_v1.sample.csv",
+                    "csvgz": "domain-ip-ranges/domain_ip_ranges_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 8275394,
+                "size": {
+                    "csvgz": 51342302
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "range",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "domain_ip_ranges_alias_v1",
+            "name": "Domain IP Ranges Alias",
+            "summary": "The domains whose home page redirects to an organization's in Domain IP Ranges, each with the domain to look its ranges up by.",
+            "folder": "domain-ip-ranges-alias",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/domain-ip-ranges/domain-ip-ranges-alias",
+            "page": "https://internetdata.io/databases/domain-ip-ranges#domain-ip-ranges-alias",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "domain-ip-ranges-alias/domain_ip_ranges_alias_v1.sample.csv",
+                    "csvgz": "domain-ip-ranges-alias/domain_ip_ranges_alias_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 86813,
+                "size": {
+                    "csvgz": 713843
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "redirects_to",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_asn_v1",
+            "name": "IP ASN",
+            "summary": "Announced IPv4 and IPv6 space mapped to its origin AS, with the holder and RPKI status.",
+            "folder": "ip-asn",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": true,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/ip-asn",
+            "page": "https://internetdata.io/databases/ip-asn",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-asn/ip_asn_v1.sample.csv",
+                    "csvgz": "ip-asn/ip_asn_v1.sample.csv.gz",
+                    "mmdb": "ip-asn/ip_asn_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 1503264,
+                "size": {
+                    "csvgz": 21427087,
+                    "mmdb": 82110494
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "prefix",
+                        "type": "string"
+                    },
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "rpki_status",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "prefix",
+                        "type": "string"
+                    },
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "rpki_status",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_whois_v1",
+            "name": "IP Whois",
+            "summary": "Every network record the registries publish, with its holder, status, contacts and parent network.",
+            "folder": "ip-whois",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/ip-whois",
+            "page": "https://internetdata.io/databases/ip-whois",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-whois/ip_whois_v1.sample.csv",
+                    "csvgz": "ip-whois/ip_whois_v1.sample.csv.gz",
+                    "mmdb": "ip-whois/ip_whois_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 12321316,
+                "size": {
+                    "csvgz": 504550833,
+                    "mmdb": 751648094
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "id",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "status",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string"
+                    },
+                    {
+                        "name": "maintainer",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin",
+                        "type": "string"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string"
+                    },
+                    {
+                        "name": "whois_domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "updated",
+                        "type": "date"
+                    },
+                    {
+                        "name": "org",
+                        "type": "string"
+                    },
+                    {
+                        "name": "rdns_domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "geoloc",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org_address",
+                        "type": "string"
+                    },
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "as_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "as_domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "as_type",
+                        "type": "string"
+                    },
+                    {
+                        "name": "created",
+                        "type": "date"
+                    },
+                    {
+                        "name": "descr",
+                        "type": "string"
+                    },
+                    {
+                        "name": "parent",
+                        "type": "string"
+                    },
+                    {
+                        "name": "handle",
+                        "type": "string"
+                    },
+                    {
+                        "name": "as_route",
+                        "type": "string"
+                    },
+                    {
+                        "name": "remarks",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_kind",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_kind",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_kind",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "maintainer_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain_maintainer",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_validated",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "abuse_unvalidated_since",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "id",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "status",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org",
+                        "type": "string"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_rwhois_v1",
+            "name": "IP RWHOIS",
+            "summary": "Reassignments published on network operators' RWHOIS servers, with their holders and contacts.",
+            "folder": "ip-rwhois",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/ip-rwhois",
+            "page": "https://internetdata.io/databases/ip-rwhois",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-rwhois/ip_rwhois_v1.sample.csv",
+                    "csvgz": "ip-rwhois/ip_rwhois_v1.sample.csv.gz",
+                    "mmdb": "ip-rwhois/ip_rwhois_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 191600,
+                "size": {
+                    "csvgz": 6065281,
+                    "mmdb": 10695273
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "id",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "descr",
+                        "type": "string"
+                    },
+                    {
+                        "name": "host",
+                        "type": "string"
+                    },
+                    {
+                        "name": "email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "street",
+                        "type": "string"
+                    },
+                    {
+                        "name": "postal",
+                        "type": "string"
+                    },
+                    {
+                        "name": "updated",
+                        "type": "date"
+                    },
+                    {
+                        "name": "imported",
+                        "type": "date"
+                    },
+                    {
+                        "name": "parent",
+                        "type": "string"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string"
+                    },
+                    {
+                        "name": "created",
+                        "type": "date"
+                    },
+                    {
+                        "name": "admin_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_city",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "id",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse",
+                        "type": "string"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "asn_v1",
+            "name": "ASN",
+            "summary": "Every allocated or announced AS number with its holder, domain, network type, announced space and RPKI standing.",
+            "folder": "asn",
+            "formats": [
+                "csvgz"
+            ],
+            "open": true,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/asn/asn",
+            "page": "https://internetdata.io/databases/asn",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "asn/asn_v1.sample.csv",
+                    "csvgz": "asn/asn_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 123708,
+                "size": {
+                    "csvgz": 3059321
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "registry",
+                        "type": "string"
+                    },
+                    {
+                        "name": "allocated",
+                        "type": "date"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ips",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_prefixes4",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_prefixes6",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rpki_valid",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rpki_invalid",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rpki_not_found",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "asn_extended_v1",
+            "name": "ASN Extended",
+            "summary": "ASN with each AS number's upstreams, peers and downstreams, its customer cone, its rank and whether it is Tier 1.",
+            "folder": "asn-extended",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/asn/asn-extended",
+            "page": "https://internetdata.io/databases/asn-extended",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "asn-extended/asn_extended_v1.sample.csv",
+                    "csvgz": "asn-extended/asn_extended_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 123708,
+                "size": {
+                    "csvgz": 7566747
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "registry",
+                        "type": "string"
+                    },
+                    {
+                        "name": "allocated",
+                        "type": "date"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_ips",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_prefixes4",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_prefixes6",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rpki_valid",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rpki_invalid",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rpki_not_found",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rank",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "tier1",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "transit_degree",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "customer_cone_asns",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "customer_cone_ips",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "customer_cone_prefixes4",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "customer_cone_prefixes6",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_upstreams",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_peers",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_downstreams",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "upstreams",
+                        "type": "string"
+                    },
+                    {
+                        "name": "peers",
+                        "type": "string"
+                    },
+                    {
+                        "name": "downstreams",
+                        "type": "string"
+                    },
+                    {
+                        "name": "num_siblings",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "siblings",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "asn_whois_v1",
+            "name": "ASN Whois",
+            "summary": "The registry record of every AS number, with its holder and contacts.",
+            "folder": "asn-whois",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/asn-whois",
+            "page": "https://internetdata.io/databases/asn-whois",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "asn-whois/asn_whois_v1.sample.csv",
+                    "csvgz": "asn-whois/asn_whois_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 118593,
+                "size": {
+                    "csvgz": 13011602
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "handle",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string"
+                    },
+                    {
+                        "name": "status",
+                        "type": "string"
+                    },
+                    {
+                        "name": "created",
+                        "type": "date"
+                    },
+                    {
+                        "name": "updated",
+                        "type": "date"
+                    },
+                    {
+                        "name": "descr",
+                        "type": "string"
+                    },
+                    {
+                        "name": "remarks",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse",
+                        "type": "string"
+                    },
+                    {
+                        "name": "maintainer",
+                        "type": "string"
+                    },
+                    {
+                        "name": "maintainer_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_kind",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_kind",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "admin_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_kind",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tech_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org_address",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org_country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "org_city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "abuse_validated",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "abuse_unvalidated_since",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_abuse_contact_v1",
+            "name": "IP Abuse Contact",
+            "summary": "Who takes abuse reports for every address range, with the email, phone and address.",
+            "folder": "ip-abuse-contact",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/ip-abuse-contact",
+            "page": "https://internetdata.io/databases/ip-abuse-contact",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-abuse-contact/ip_abuse_contact_v1.sample.csv",
+                    "csvgz": "ip-abuse-contact/ip_abuse_contact_v1.sample.csv.gz",
+                    "mmdb": "ip-abuse-contact/ip_abuse_contact_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 4205646,
+                "size": {
+                    "csvgz": 72022892,
+                    "mmdb": 248654964
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "network",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "address",
+                        "type": "string"
+                    },
+                    {
+                        "name": "validated",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "unvalidated_since",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "network",
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "email",
+                        "type": "string"
+                    },
+                    {
+                        "name": "phone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "address",
+                        "type": "string"
+                    },
+                    {
+                        "name": "validated",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "unvalidated_since",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_rdns_v1",
+            "name": "IP RDNS",
+            "summary": "The reverse DNS name of every IPv4 and IPv6 address that answers a PTR query.",
+            "folder": "ip-rdns",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/ip-rdns",
+            "page": "https://internetdata.io/databases/ip-rdns",
+            "sample": {
+                "cut": "2026-11-14",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-rdns/ip_rdns_v1.sample.csv",
+                    "csvgz": "ip-rdns/ip_rdns_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 1236479428,
+                "size": {
+                    "csvgz": 10194810821
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "forward_confirmed",
+                        "type": "boolean"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_geolocation_v1",
+            "name": "IP Geolocation",
+            "summary": "Every IP range mapped to continent, country, region and city, with the city's coordinates, timezone, postal code and GeoNames ID, an accuracy radius, the date the location last changed, and a US range's DMA code.",
+            "folder": "ip-geolocation",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/ip-geolocation",
+            "page": "https://internetdata.io/databases/ip-geolocation",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-geolocation/ip_geolocation_v1.sample.csv",
+                    "csvgz": "ip-geolocation/ip_geolocation_v1.sample.csv.gz",
+                    "mmdb": "ip-geolocation/ip_geolocation_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 12533715,
+                "size": {
+                    "csvgz": 156968772,
+                    "mmdb": 90093297
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "continent",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "region_code",
+                        "type": "string"
+                    },
+                    {
+                        "name": "region",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "float"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "float"
+                    },
+                    {
+                        "name": "timezone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "postal_code",
+                        "type": "string"
+                    },
+                    {
+                        "name": "geoname_id",
+                        "type": "string"
+                    },
+                    {
+                        "name": "accuracy_radius",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "last_changed",
+                        "type": "date"
+                    },
+                    {
+                        "name": "dma_code",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "continent",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "region_code",
+                        "type": "string"
+                    },
+                    {
+                        "name": "region",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "float"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "float"
+                    },
+                    {
+                        "name": "timezone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "postal_code",
+                        "type": "string"
+                    },
+                    {
+                        "name": "geoname_id",
+                        "type": "string"
+                    },
+                    {
+                        "name": "accuracy_radius",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "last_changed",
+                        "type": "date"
+                    },
+                    {
+                        "name": "dma_code",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_country_v1",
+            "name": "IP Country",
+            "summary": "Every IP range mapped to its continent and country, each as a code and a name, with its timezone and the country's currency and flag.",
+            "folder": "ip-country",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": true,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/ip-country",
+            "page": "https://internetdata.io/databases/ip-country",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-country/ip_country_v1.sample.csv",
+                    "csvgz": "ip-country/ip_country_v1.sample.csv.gz",
+                    "mmdb": "ip-country/ip_country_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 2541921,
+                "size": {
+                    "csvgz": 22256500,
+                    "mmdb": 8761676
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "continent",
+                        "type": "string"
+                    },
+                    {
+                        "name": "continent_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "timezone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_code",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_symbol",
+                        "type": "string"
+                    },
+                    {
+                        "name": "flag_emoji",
+                        "type": "string"
+                    },
+                    {
+                        "name": "flag_unicode",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "continent",
+                        "type": "string"
+                    },
+                    {
+                        "name": "continent_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "timezone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_code",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_symbol",
+                        "type": "string"
+                    },
+                    {
+                        "name": "flag_emoji",
+                        "type": "string"
+                    },
+                    {
+                        "name": "flag_unicode",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_timezone_v1",
+            "name": "IP Timezone",
+            "summary": "Every IP range mapped to an IANA timezone, with its country.",
+            "folder": "ip-timezone",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": true,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/ip-timezone",
+            "page": "https://internetdata.io/databases/ip-timezone",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-timezone/ip_timezone_v1.sample.csv",
+                    "csvgz": "ip-timezone/ip_timezone_v1.sample.csv.gz",
+                    "mmdb": "ip-timezone/ip_timezone_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 2541753,
+                "size": {
+                    "csvgz": 18292102,
+                    "mmdb": 8739586
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "timezone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "timezone",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_country_flag_v1",
+            "name": "IP Country Flag",
+            "summary": "Every IP range mapped to its country's flag, as an emoji and its Unicode code points.",
+            "folder": "ip-country-flag",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": true,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/ip-country-flag",
+            "page": "https://internetdata.io/databases/ip-country-flag",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-country-flag/ip_country_flag_v1.sample.csv",
+                    "csvgz": "ip-country-flag/ip_country_flag_v1.sample.csv.gz",
+                    "mmdb": "ip-country-flag/ip_country_flag_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 925772,
+                "size": {
+                    "csvgz": 7764511,
+                    "mmdb": 4172088
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "flag_emoji",
+                        "type": "string"
+                    },
+                    {
+                        "name": "flag_unicode",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "flag_emoji",
+                        "type": "string"
+                    },
+                    {
+                        "name": "flag_unicode",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_country_currency_v1",
+            "name": "IP Country Currency",
+            "summary": "Every IP range mapped to its country's currency: the code, the name and the symbol.",
+            "folder": "ip-country-currency",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": true,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/ip-country-currency",
+            "page": "https://internetdata.io/databases/ip-country-currency",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-country-currency/ip_country_currency_v1.sample.csv",
+                    "csvgz": "ip-country-currency/ip_country_currency_v1.sample.csv.gz",
+                    "mmdb": "ip-country-currency/ip_country_currency_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 925772,
+                "size": {
+                    "csvgz": 6987221,
+                    "mmdb": 4165412
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_code",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_symbol",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_code",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currency_symbol",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "carrier_ip_v1",
+            "name": "Carrier IP",
+            "summary": "Mobile carrier address space, with the operator, its MCC and MNC, and the country.",
+            "folder": "carrier-ip",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/carrier-ip",
+            "page": "https://internetdata.io/databases/carrier-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "carrier-ip/carrier_ip_v1.sample.csv",
+                    "csvgz": "carrier-ip/carrier_ip_v1.sample.csv.gz",
+                    "mmdb": "carrier-ip/carrier_ip_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 209230,
+                "size": {
+                    "csvgz": 1530029,
+                    "mmdb": 3930576
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "mcc",
+                        "type": "string"
+                    },
+                    {
+                        "name": "mnc",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "mcc",
+                        "type": "string"
+                    },
+                    {
+                        "name": "mnc",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "satellite_ip_v1",
+            "name": "Satellite IP",
+            "summary": "Satellite internet address space, with the operator, its orbit and market, the subscribers' country and a confidence.",
+            "folder": "satellite-ip",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/satellite-ip/satellite-ip",
+            "page": "https://internetdata.io/databases/satellite-ip",
+            "sample": {
+                "cut": "2026-11-16",
+                "rows": 100,
+                "files": {
+                    "csv": "satellite-ip/satellite_ip_v1.sample.csv",
+                    "csvgz": "satellite-ip/satellite_ip_v1.sample.csv.gz",
+                    "mmdb": "satellite-ip/satellite_ip_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 4334,
+                "size": {
+                    "csvgz": 40433,
+                    "mmdb": 95950
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "orbit",
+                        "type": "string"
+                    },
+                    {
+                        "name": "segment",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "orbit",
+                        "type": "string"
+                    },
+                    {
+                        "name": "segment",
+                        "type": "string"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "cdn_ip_v1",
+            "name": "CDN IP",
+            "summary": "IPs operated by content delivery networks.",
+            "folder": "cdn-ip",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/cdn-ip/cdn-ip",
+            "page": "https://internetdata.io/databases/cdn-ip",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "cdn-ip/cdn_ip_v1.sample.csv",
+                    "csvgz": "cdn-ip/cdn_ip_v1.sample.csv.gz",
+                    "mmdb": "cdn-ip/cdn_ip_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 153406,
+                "size": {
+                    "csvgz": 982968,
+                    "mmdb": 1169629
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bgp_route_v1",
+            "name": "BGP Route",
+            "summary": "Every announced BGP prefix with its origin AS, collector visibility and RPKI status; multi-origin (MOAS) prefixes kept, one row per origin.",
+            "folder": "bgp-route",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/bgp-route",
+            "page": "https://internetdata.io/databases/bgp-route",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "bgp-route/bgp_route_v1.sample.csv",
+                    "csvgz": "bgp-route/bgp_route_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 1449058,
+                "size": {
+                    "csvgz": 6232877
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "prefix",
+                        "type": "string"
+                    },
+                    {
+                        "name": "family",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "origin_asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "peer_count",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rpki_status",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ssh_ip_v1",
+            "name": "SSH IP",
+            "summary": "Every host that completed an SSH handshake on TCP port 22, with its server banner and host-key fingerprint.",
+            "folder": "ssh-ip",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/ssh-ip",
+            "page": "https://internetdata.io/databases/ssh-ip",
+            "sample": {
+                "cut": "2026-11-14",
+                "rows": 100,
+                "files": {
+                    "csv": "ssh-ip/ssh_ip_v1.sample.csv",
+                    "csvgz": "ssh-ip/ssh_ip_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 24056065,
+                "size": {
+                    "csvgz": 979625079
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "port",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "banner",
+                        "type": "string"
+                    },
+                    {
+                        "name": "host_key_fp",
+                        "type": "string"
+                    },
+                    {
+                        "name": "session_ok",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "smtp_ip_v1",
+            "name": "SMTP IP",
+            "summary": "Every host that returned an SMTP greeting on TCP port 587, with the greeting banner.",
+            "folder": "smtp-ip",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/smtp-ip",
+            "page": "https://internetdata.io/databases/smtp-ip",
+            "sample": {
+                "cut": "2026-11-14",
+                "rows": 100,
+                "files": {
+                    "csv": "smtp-ip/smtp_ip_v1.sample.csv",
+                    "csvgz": "smtp-ip/smtp_ip_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 3265950,
+                "size": {
+                    "csvgz": 53118711
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "port",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "banner",
+                        "type": "string"
+                    },
+                    {
+                        "name": "session_ok",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "dns_resolver_ip_v1",
+            "name": "DNS Resolver IP",
+            "summary": "Every host answering DNS on UDP port 53, flagged for recursion and whether it is a working open resolver.",
+            "folder": "dns-resolver-ip",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/dns-resolver-ip",
+            "page": "https://internetdata.io/databases/dns-resolver-ip",
+            "sample": {
+                "cut": "2026-11-14",
+                "rows": 100,
+                "files": {
+                    "csv": "dns-resolver-ip/dns_resolver_ip_v1.sample.csv",
+                    "csvgz": "dns-resolver-ip/dns_resolver_ip_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 6706146,
+                "size": {
+                    "csvgz": 37138013
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "port",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "recursion_available",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "rcode",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "answer_correct",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "bittorrent_ip_v1",
+            "name": "BitTorrent IP",
+            "summary": "Every address where a BitTorrent client was seen in the last 90 days, flagged verified or not, with how many clients shared it at once and the codes they identify themselves by.",
+            "folder": "bittorrent-ip",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/bittorrent-ip",
+            "page": "https://internetdata.io/databases/bittorrent-ip",
+            "sample": {
+                "cut": "2026-11-16",
+                "rows": 100,
+                "files": {
+                    "csv": "bittorrent-ip/bittorrent_ip_v1.sample.csv",
+                    "csvgz": "bittorrent-ip/bittorrent_ip_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 62964046,
+                "size": {
+                    "csvgz": 823922487
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "verified",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "id_matches_ip",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_reachable",
+                        "type": "date"
+                    },
+                    {
+                        "name": "days_seen",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "peak_num_ports",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "indexer",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "clients",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "domain_list_v1",
+            "name": "Domain List",
+            "summary": "Every registered domain in the generic top-level domains, .com, .net and .org among them, and in .fr, .se, .sk and a few other country codes, with the domains in use under the rest, .de and .uk among them, one name per row.",
+            "folder": "domain-list",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/domain-list",
+            "page": "https://internetdata.io/databases/domain-list",
+            "sample": {
+                "cut": "2026-11-13",
+                "rows": 100,
+                "files": {
+                    "csv": "domain-list/domain_list_v1.sample.csv",
+                    "csvgz": "domain-list/domain_list_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 347648195,
+                "size": {
+                    "csvgz": 1427558342
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "domain_dns_a_v1",
+            "name": "Domain DNS A",
+            "summary": "Each domain's IPv4 addresses from its A records, with CNAMEs followed, one address per row.",
+            "folder": "domain-dns-a",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-a",
+            "page": "https://internetdata.io/databases/domain-dns",
+            "sample": {
+                "cut": "2026-11-15",
+                "rows": 100,
+                "files": {
+                    "csv": "domain-dns-a/domain_dns_a_v1.sample.csv",
+                    "csvgz": "domain-dns-a/domain_dns_a_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 569244687,
+                "size": {
+                    "csvgz": 4447424208
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "domain_dns_aaaa_v1",
+            "name": "Domain DNS AAAA",
+            "summary": "Each domain's IPv6 addresses from its AAAA records, with CNAMEs followed, one address per row.",
+            "folder": "domain-dns-aaaa",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-aaaa",
+            "page": "https://internetdata.io/databases/domain-dns#domain-dns-aaaa",
+            "sample": {
+                "cut": "2026-11-15",
+                "rows": 100,
+                "files": {
+                    "csv": "domain-dns-aaaa/domain_dns_aaaa_v1.sample.csv",
+                    "csvgz": "domain-dns-aaaa/domain_dns_aaaa_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 161491248,
+                "size": {
+                    "csvgz": 1645825109
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "domain_dns_mx_v1",
+            "name": "Domain DNS MX",
+            "summary": "Each domain's mail exchangers from its MX records, with their priorities, one record per row.",
+            "folder": "domain-dns-mx",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-mx",
+            "page": "https://internetdata.io/databases/domain-dns#domain-dns-mx",
+            "sample": {
+                "cut": "2026-11-15",
+                "rows": 100,
+                "files": {
+                    "csv": "domain-dns-mx/domain_dns_mx_v1.sample.csv",
+                    "csvgz": "domain-dns-mx/domain_dns_mx_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 316374066,
+                "size": {
+                    "csvgz": 2382049587
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "priority",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "host",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "domain_dns_ns_v1",
+            "name": "Domain DNS NS",
+            "summary": "The nameservers each domain is delegated to, one per row.",
+            "folder": "domain-dns-ns",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-ns",
+            "page": "https://internetdata.io/databases/domain-dns#domain-dns-ns",
+            "sample": {
+                "cut": "2026-11-15",
+                "rows": 100,
+                "files": {
+                    "csv": "domain-dns-ns/domain_dns_ns_v1.sample.csv",
+                    "csvgz": "domain-dns-ns/domain_dns_ns_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 799357556,
+                "size": {
+                    "csvgz": 5151794944
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "host",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "domain_dns_cname_v1",
+            "name": "Domain DNS CNAME",
+            "summary": "Every CNAME record seen on a domain or host name, with the name it points to, one per row.",
+            "folder": "domain-dns-cname",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-cname",
+            "page": "https://internetdata.io/databases/domain-dns#domain-dns-cname",
+            "sample": {
+                "cut": "2026-11-15",
+                "rows": 100,
+                "files": {
+                    "csv": "domain-dns-cname/domain_dns_cname_v1.sample.csv",
+                    "csvgz": "domain-dns-cname/domain_dns_cname_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 143714698,
+                "size": {
+                    "csvgz": 1442461439
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "target",
+                        "type": "string"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ip_hosted_domains_v1",
+            "name": "IP Hosted Domains",
+            "summary": "Every IP address registered domains resolve to, with how many there are and up to 1,000 of them, the most popular first, one address per row.",
+            "folder": "ip-hosted-domains",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/ip-hosted-domains/ip-hosted-domains",
+            "page": "https://internetdata.io/databases/ip-hosted-domains",
+            "sample": {
+                "cut": "2026-11-15",
+                "rows": 100,
+                "files": {
+                    "csv": "ip-hosted-domains/ip_hosted_domains_v1.sample.csv",
+                    "csvgz": "ip-hosted-domains/ip_hosted_domains_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 39012516,
+                "size": {
+                    "csvgz": 1881722693
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "total",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "domains",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "range_hosted_domains_v1",
+            "name": "Range Hosted Domains",
+            "summary": "Every announced IP range registered domains resolve to, with its AS, how many domains there are and up to 1,000 of them, the most popular first, one range per row.",
+            "folder": "range-hosted-domains",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/ip-hosted-domains/range-hosted-domains",
+            "page": "https://internetdata.io/databases/ip-hosted-domains#range-hosted-domains",
+            "sample": {
+                "cut": "2026-11-15",
+                "rows": 100,
+                "files": {
+                    "csv": "range-hosted-domains/range_hosted_domains_v1.sample.csv",
+                    "csvgz": "range-hosted-domains/range_hosted_domains_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 386967,
+                "size": {
+                    "csvgz": 194874258
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "prefix",
+                        "type": "string"
+                    },
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "total",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "domains",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "asn_hosted_domains_v1",
+            "name": "ASN Hosted Domains",
+            "summary": "Every AS whose addresses registered domains resolve to, with how many domains there are and up to 1,000 of them, the most popular first, one AS per row.",
+            "folder": "asn-hosted-domains",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/ip-hosted-domains/asn-hosted-domains",
+            "page": "https://internetdata.io/databases/ip-hosted-domains#asn-hosted-domains",
+            "sample": {
+                "cut": "2026-11-15",
+                "rows": 100,
+                "files": {
+                    "csv": "asn-hosted-domains/asn_hosted_domains_v1.sample.csv",
+                    "csvgz": "asn-hosted-domains/asn_hosted_domains_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 52321,
+                "size": {
+                    "csvgz": 37081760
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "asn",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "total",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "domains",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "disposable_domain_v1",
+            "name": "Disposable Domain",
+            "summary": "Every domain whose email addresses are disposable, rated high, medium or low, with the first and last day we saw it in use and the providers behind it, one domain per row.",
+            "folder": "disposable-domain",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/disposable-domain/disposable-domain",
+            "page": "https://internetdata.io/databases/disposable-domain",
+            "sample": {
+                "cut": "2026-11-17",
+                "rows": 100,
+                "files": {
+                    "csv": "disposable-domain/disposable_domain_v1.sample.csv",
+                    "csvgz": "disposable-domain/disposable_domain_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 32479,
+                "size": {
+                    "csvgz": 387963
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "domain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "providers",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
 }

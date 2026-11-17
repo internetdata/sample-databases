@@ -1,0 +1,101 @@
+start_ip,end_ip,country,country_name,flag_emoji,flag_unicode
+1.0.0.0,1.0.0.255,AU,Australia,🇦🇺,U+1F1E6 U+1F1FA
+5.196.53.104,5.196.53.107,CZ,Czechia,🇨🇿,U+1F1E8 U+1F1FF
+17.43.176.0,17.43.183.255,BR,Brazil,🇧🇷,U+1F1E7 U+1F1F7
+23.234.74.48,23.234.74.55,US,United States,🇺🇸,U+1F1FA U+1F1F8
+34.103.132.40,34.103.132.41,CH,Switzerland,🇨🇭,U+1F1E8 U+1F1ED
+38.140.10.144,38.140.10.163,US,United States,🇺🇸,U+1F1FA U+1F1F8
+44.63.11.80,44.63.11.87,US,United States,🇺🇸,U+1F1FA U+1F1F8
+45.172.252.0,45.172.255.255,BR,Brazil,🇧🇷,U+1F1E7 U+1F1F7
+51.68.182.176,51.68.182.187,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+51.222.48.128,51.222.49.191,CA,Canada,🇨🇦,U+1F1E8 U+1F1E6
+54.39.66.28,54.39.66.31,KZ,Kazakhstan,🇰🇿,U+1F1F0 U+1F1FF
+62.134.64.144,62.134.64.151,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+64.138.144.30,64.138.144.31,US,United States,🇺🇸,U+1F1FA U+1F1F8
+67.192.111.112,67.192.111.119,HR,Croatia,🇭🇷,U+1F1ED U+1F1F7
+70.38.40.232,70.38.40.239,CA,Canada,🇨🇦,U+1F1E8 U+1F1E6
+77.77.140.200,77.77.140.215,PL,Poland,🇵🇱,U+1F1F5 U+1F1F1
+80.247.48.0,80.247.55.255,GB,United Kingdom,🇬🇧,U+1F1EC U+1F1E7
+84.16.181.132,84.16.181.135,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+88.223.218.0,88.223.218.255,FR,France,🇫🇷,U+1F1EB U+1F1F7
+91.202.84.0,91.202.87.255,RU,Russia,🇷🇺,U+1F1F7 U+1F1FA
+93.170.25.0,93.170.26.255,UA,Ukraine,🇺🇦,U+1F1FA U+1F1E6
+96.45.42.35,96.45.42.39,FR,France,🇫🇷,U+1F1EB U+1F1F7
+103.75.117.0,103.75.117.255,HK,Hong Kong,🇭🇰,U+1F1ED U+1F1F0
+103.180.26.0,103.180.27.255,AU,Australia,🇦🇺,U+1F1E6 U+1F1FA
+104.28.153.39,104.28.153.39,PA,Panama,🇵🇦,U+1F1F5 U+1F1E6
+104.30.179.120,104.30.179.121,US,United States,🇺🇸,U+1F1FA U+1F1F8
+109.72.114.0,109.72.115.255,US,United States,🇺🇸,U+1F1FA U+1F1F8
+130.117.252.0,130.117.253.255,NL,The Netherlands,🇳🇱,U+1F1F3 U+1F1F1
+136.234.163.0,136.234.163.255,AU,Australia,🇦🇺,U+1F1E6 U+1F1FA
+141.140.14.0,141.140.14.255,HK,Hong Kong,🇭🇰,U+1F1ED U+1F1F0
+146.247.161.250,146.247.161.255,NO,Norway,🇳🇴,U+1F1F3 U+1F1F4
+149.56.91.200,149.56.91.207,US,United States,🇺🇸,U+1F1FA U+1F1F8
+154.6.63.0,154.6.63.255,RO,Romania,🇷🇴,U+1F1F7 U+1F1F4
+156.227.8.0,156.227.10.255,HK,Hong Kong,🇭🇰,U+1F1ED U+1F1F0
+161.47.121.180,161.47.121.183,MX,Mexico,🇲🇽,U+1F1F2 U+1F1FD
+164.160.0.0,164.160.3.255,TN,Tunisia,🇹🇳,U+1F1F9 U+1F1F3
+172.69.2.0,172.69.2.255,MX,Mexico,🇲🇽,U+1F1F2 U+1F1FD
+174.142.164.240,174.142.164.247,AR,Argentina,🇦🇷,U+1F1E6 U+1F1F7
+178.211.142.0,178.211.142.255,TR,Turkey,🇹🇷,U+1F1F9 U+1F1F7
+185.1.175.0,185.1.175.255,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+185.93.200.0,185.93.203.255,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+185.163.19.107,185.163.19.107,GU,Guam,🇬🇺,U+1F1EC U+1F1FA
+186.247.56.0,186.247.56.255,SL,Sierra Leone,🇸🇱,U+1F1F8 U+1F1F1
+192.67.4.0,192.67.4.255,GB,United Kingdom,🇬🇧,U+1F1EC U+1F1E7
+193.35.96.0,193.35.97.255,RU,Russia,🇷🇺,U+1F1F7 U+1F1FA
+193.240.106.68,193.240.106.79,GB,United Kingdom,🇬🇧,U+1F1EC U+1F1E7
+194.120.142.136,194.120.142.215,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+194.196.18.240,194.196.18.243,BE,Belgium,🇧🇪,U+1F1E7 U+1F1EA
+195.183.136.0,195.183.136.31,ES,Spain,🇪🇸,U+1F1EA U+1F1F8
+198.72.105.240,198.72.118.47,CA,Canada,🇨🇦,U+1F1E8 U+1F1E6
+202.61.142.0,202.61.142.255,SG,Singapore,🇸🇬,U+1F1F8 U+1F1EC
+204.191.223.200,204.191.248.215,CA,Canada,🇨🇦,U+1F1E8 U+1F1E6
+208.116.164.220,208.116.164.223,CA,Canada,🇨🇦,U+1F1E8 U+1F1E6
+212.14.74.176,212.14.74.179,CZ,Czechia,🇨🇿,U+1F1E8 U+1F1FF
+212.222.184.208,212.222.184.223,GB,United Kingdom,🇬🇧,U+1F1EC U+1F1E7
+213.236.68.108,213.236.68.111,BE,Belgium,🇧🇪,U+1F1E7 U+1F1EA
+217.147.130.80,217.147.130.159,US,United States,🇺🇸,U+1F1FA U+1F1F8
+2001:470:d:dc7::,2001:470:d:dc7:ffff:ffff:ffff:ffff,CN,China,🇨🇳,U+1F1E8 U+1F1F3
+2001:470:26:69d::,2001:470:26:69d:ffff:ffff:ffff:ffff,RU,Russia,🇷🇺,U+1F1F7 U+1F1FA
+2001:470:6d:73c::,2001:470:6d:73d:ffff:ffff:ffff:ffff,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+2001:470:1f0b:d8::,2001:470:1f0b:da:ffff:ffff:ffff:ffff,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+2001:470:1f17:57::,2001:470:1f17:57:ffff:ffff:ffff:ffff,JP,Japan,🇯🇵,U+1F1EF U+1F1F5
+2001:470:557a::,2001:470:55aa:ffff:ffff:ffff:ffff:ffff,US,United States,🇺🇸,U+1F1FA U+1F1F8
+2001:470:d9a9::,2001:470:d9a9:ffff:ffff:ffff:ffff:ffff,BR,Brazil,🇧🇷,U+1F1E7 U+1F1F7
+2001:678:4f0::,2001:678:4f0:ffff:ffff:ffff:ffff:ffff,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+2001:978:2:73::a:0,2001:978:2:73::c:ffff,GB,United Kingdom,🇬🇧,U+1F1EC U+1F1E7
+2001:df7:ce40::,2001:df7:ce40:ffff:ffff:ffff:ffff:ffff,ID,Indonesia,🇮🇩,U+1F1EE U+1F1E9
+2401:3620:232:98::,2401:3620:232:98:ffff:ffff:ffff:ffff,MN,Mongolia,🇲🇳,U+1F1F2 U+1F1F3
+2406:daf5:8100::,2406:daf5:87ff:ffff:ffff:ffff:ffff:ffff,US,United States,🇺🇸,U+1F1FA U+1F1F8
+2602:f743:3e8::,2602:f743:3e8:ffff:ffff:ffff:ffff:ffff,GB,United Kingdom,🇬🇧,U+1F1EC U+1F1E7
+2604:e780::,2604:e780:ffff:ffff:ffff:ffff:ffff:ffff,US,United States,🇺🇸,U+1F1FA U+1F1F8
+2606:40:21d8::,2606:40:21d8:3ff:ffff:ffff:ffff:ffff,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+2606:54c3:0:36::,2606:54c3:0:36:ffff:ffff:ffff:ffff,FR,France,🇫🇷,U+1F1EB U+1F1F7
+2620:4b::,2620:4b:0:ffff:ffff:ffff:ffff:ffff,CA,Canada,🇨🇦,U+1F1E8 U+1F1E6
+2804:1cac::,2804:1cac:ffff:ffff:ffff:ffff:ffff:ffff,BR,Brazil,🇧🇷,U+1F1E7 U+1F1F7
+2a00:79e0:2848::,2a00:79e0:2848:ffff:ffff:ffff:ffff:ffff,PT,Portugal,🇵🇹,U+1F1F5 U+1F1F9
+2a01:4f9:2a:18f1::,2a01:4f9:2a:1900:ffff:ffff:ffff:ffff,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+2a01:4f9:3b:3b13::,2a01:4f9:3b:3b19:ffff:ffff:ffff:ffff,FI,Finland,🇫🇮,U+1F1EB U+1F1EE
+2a01:4f9:5a:2cb1::,2a01:4f9:5a:2cbf:ffff:ffff:ffff:ffff,DE,Germany,🇩🇪,U+1F1E9 U+1F1EA
+2a01:4f9:3080:2b40::,2a01:4f9:3080:2b40:ffff:ffff:ffff:ffff,FI,Finland,🇫🇮,U+1F1EB U+1F1EE
+2a02:808::,2a02:80f:ffff:ffff:ffff:ffff:ffff:ffff,HU,Hungary,🇭🇺,U+1F1ED U+1F1FA
+2a02:26f7:e7cc:4b8f::,2a02:26f7:e7cd:3fff:ffff:ffff:ffff:ffff,NL,The Netherlands,🇳🇱,U+1F1F3 U+1F1F1
+2a04:1d41:6700::,2a04:1d41:67ff:ffff:ffff:ffff:ffff:ffff,KE,Kenya,🇰🇪,U+1F1F0 U+1F1EA
+2a05:9580::,2a05:9587:ffff:ffff:ffff:ffff:ffff:ffff,HU,Hungary,🇭🇺,U+1F1ED U+1F1FA
+2a09:4c0:3e0:6fc::,2a09:4c0:3e0:6ff:ffff:ffff:ffff:ffff,IR,Iran,🇮🇷,U+1F1EE U+1F1F7
+2a09:bac0:1001:183::,2a09:bac0:1001:183:ffff:ffff:ffff:ffff,AU,Australia,🇦🇺,U+1F1E6 U+1F1FA
+2a09:bac1:1980:9678::,2a09:bac1:1980:9678:ffff:ffff:ffff:ffff,CN,China,🇨🇳,U+1F1E8 U+1F1F3
+2a09:bac1:3b00:1529::,2a09:bac1:3b00:1557:ffff:ffff:ffff:ffff,US,United States,🇺🇸,U+1F1FA U+1F1F8
+2a0a:6040:27c0::,2a0a:6040:27df:ffff:ffff:ffff:ffff:ffff,IT,Italy,🇮🇹,U+1F1EE U+1F1F9
+2a0d:2583:ab07::,2a0d:2583:ab07:ffff:ffff:ffff:ffff:ffff,US,United States,🇺🇸,U+1F1FA U+1F1F8
+2a0f:2c80:2::,2a0f:2c87:ffff:ffff:ffff:ffff:ffff:ffff,NL,The Netherlands,🇳🇱,U+1F1F3 U+1F1F1
+2a10:bf80:4808::,2a10:bf80:480f:ffff:ffff:ffff:ffff:ffff,SE,Sweden,🇸🇪,U+1F1F8 U+1F1EA
+2a10:bf81:6d30::,2a10:bf81:6d37:ffff:ffff:ffff:ffff:ffff,TR,Turkey,🇹🇷,U+1F1F9 U+1F1F7
+2a10:bf82:91e0::,2a10:bf82:91e7:ffff:ffff:ffff:ffff:ffff,DK,Denmark,🇩🇰,U+1F1E9 U+1F1F0
+2a10:bf83:b738::,2a10:bf83:b73f:ffff:ffff:ffff:ffff:ffff,NG,Nigeria,🇳🇬,U+1F1F3 U+1F1EC
+2a10:bf84:dc10::,2a10:bf84:dc17:ffff:ffff:ffff:ffff:ffff,QA,Qatar,🇶🇦,U+1F1F6 U+1F1E6
+2a10:bf86:f0::,2a10:bf86:f7:ffff:ffff:ffff:ffff:ffff,GB,United Kingdom,🇬🇧,U+1F1EC U+1F1E7
+2a10:bf87:2640::,2a10:bf87:2647:ffff:ffff:ffff:ffff:ffff,AO,Angola,🇦🇴,U+1F1E6 U+1F1F4
+2a11:8840::,2a11:8847:ffff:ffff:ffff:ffff:ffff:ffff,RU,Russia,🇷🇺,U+1F1F7 U+1F1FA
+2a13:9500:1e4:17a7::,2a13:9500:1e4:17a7:ffff:ffff:ffff:ffff,US,United States,🇺🇸,U+1F1FA U+1F1F8

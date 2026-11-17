@@ -1,0 +1,101 @@
+range,domain,name,country
+199.242.132.0/24,0-1.com,"Zero & One Engineering, Inc.",US
+188.20.187.176/30,a1.net,A1 Telekom Austria AG,AT
+187.0.12.48/29,adyl.com.br,Adylnet Telecom,BR
+182.71.208.8/29,airtel.in,Bharti Airtel Limited,IN
+91.243.177.128/25,alphavps.bg,DA International Group Ltd.,GB
+83.238.132.112/30,apart.pl,APART Sp. z o.o.,PL
+124.33.51.80/29,arteria-net.com,ARTERIA Networks Corporation,JP
+2a02:f8:7:108::/64,asdasd.it,ASDASD srl a socio unico,IT
+12.76.253.64/27,att.com,"AT&T Enterprises, LLC",US
+12.209.245.32/27,att.com,"AT&T Enterprises, LLC",US
+64.169.166.128/27,att.com,"AT&T Enterprises, LLC",US
+68.23.232.248/29,att.com,"AT&T Enterprises, LLC",US
+70.159.142.128/25,att.com,"AT&T Enterprises, LLC",US
+75.61.230.200/29,att.com,"AT&T Enterprises, LLC",US
+99.62.205.208/28,att.com,"AT&T Enterprises, LLC",US
+108.242.6.120/32,att.com,"AT&T Enterprises, LLC",US
+2001:1890:14fe:402::/64,att.com,"AT&T Enterprises, LLC",US
+2001:1890:1981:f00::/56,att.com,"AT&T Enterprises, LLC",US
+99.18.208.104/29,ayzenberg.com,AYZENBERG DESIGN GROUP,US
+129.143.211.64/26,belwue.de,Universitaet Stuttgart,DE
+63.253.67.248/32,breadsoftheworld.com,BREADS OF THE WORLD,US
+2a00:2381:6ad0:2000::/51,bt.net,British Telecom BTNET Management container,GB
+217.57.3.128/30,calzedonia.com,CALZEDONIA SPA,IT
+209.214.94.224/29,cespower.com,CES POWER LLC,US
+64.183.80.152/29,charter.com,Charter Communications Inc,US
+74.87.97.96/29,charter.com,Charter Communications Inc,US
+128.92.226.88/29,charter.com,Charter Communications LLC,US
+2600:6c38:138::/47,charter.com,Charter Communications LLC,US
+116.228.138.68/30,chinatelecom.cn,CHINANET Shanghai province network,CN
+122.227.12.232/29,chinatelecom.com.cn,CHINANET Zhejiang province network,CN
+116.148.222.0/23,chinaunicom.cn,China United Network Communications Corporation Limited,CN
+201.234.96.224/27,ciriontechnologies.com,Cirion Technologies Mexico,MX
+38.32.0.252/30,cogentco.com,"Cogent Communications, LLC",US
+23.24.159.56/29,comcast.com,"Comcast Cable Communications, LLC",US
+71.27.124.128/25,comcast.com,"Comcast Cable Communications, LLC",US
+173.164.132.248/29,comcast.com,"Comcast Cable Communications, LLC",US
+109.70.136.192/29,coreix.net,Coreix Ltd,GB
+2a09:a702:94::/47,cyberzonehub.com,Cyberzon S.A (Valencia),ES
+154.201.177.0/24,digitalcoretechnology.com,"Digital Core Technology Co., Ltd",HK
+182.74.24.84/30,ebenezar.in,EBENEZAR COMMUNICATIONS PRIVATE LIMITED,IN
+200.183.39.164/30,embratel.com.br,CLARO S.A.,BR
+81.17.6.240/28,ertelecom.ru,"JSC ""ER-Telecom Holding""",RU
+220.228.147.194/32,fareastone.com.tw,"New Centry InfoComm Tech. Co., Ltd.",TW
+2001:1890:1b2c:b800::/56,floridahealth.com,FLORIDA HEALTH,US
+12.208.226.136/29,genezen.com,GENEZEN LABORATORIES INC,US
+82.195.238.252/30,green.ch,green.ch AG,CH
+128.185.66.128/30,hdfcbank.com,HDFC BANK LIMITED,IN
+2a01:4f8:162:72ec::/64,hetzner.com,Hetzner Online GmbH,DE
+2a01:4f8:2b02:6ba::/63,hetzner.com,Hetzner Online GmbH,DE
+210.61.13.128/25,hinet.net,Data Communication Business Group,TW
+184.183.183.7/32,hrtec.net,HRTec,US
+202.222.60.0/28,incl.ne.jp,"Ishikawa Computer Center Co.,LTD.",JP
+81.80.101.151/32,invivo-group.com,INVIVO GROUP,FR
+2600:6c10:e40::/48,jeffmartinauctioneers.com,JEFF MARTIN AUCTIONEERS,US
+176.100.35.0/27,klauke-enterprises.com,KLAUKE ENTERPRISES,DE
+188.202.24.240/29,kpn.com,KPN B.V.,NL
+181.10.200.152/29,lasmarias.com.ar,Establecimientos las Marías,AR
+41.77.149.78/31,liquid.tech,Liquid Telecommunications Operations Limited,MU
+65.41.198.0/23,lumen.com,"CenturyLink Communications, LLC",US
+208.47.180.160/29,lumen.com,"CenturyLink Communications, LLC",US
+92.54.143.224/29,marshalladg.com,Marshall of Cambridge Aerospace Ltd,GB
+206.225.78.192/26,metronet.com,Metronet,US
+88.209.100.172/30,monaco-telecom.mc,Monaco Telecom S.A.,MC
+198.187.29.117/32,namecheap.com,"Namecheap, Inc.",US
+220.241.123.0/25,netvigator.com,Hong Kong Telecommunications (HKT) Limited Business Internet,HK
+212.85.46.128/27,nova.es,Nova Internet S.L.,ES
+81.58.27.136/29,odido.nl,Odido Netherlands B.V.,NL
+80.15.236.0/23,orange.com,Orange S.A.,FR
+213.76.132.216/29,orange.pl,Orange Polska Spolka Akcyjna,PL
+94.137.115.72/29,ownit.se,Ownit Broadband AB,SE
+27.110.187.0/25,pldt.com,Philippine Long Distance Telephone Co.,PH
+92.198.34.128/26,plusnet.de,Plusnet GmbH,DE
+95.80.116.36/30,ptl.ru,Quantum CJSC,RU
+207.97.215.128/26,rackspace.com,Rackspace Hosting,US
+78.7.123.75/32,retelit.it,RETELIT-X S.R.L.,IT
+2604:5280:3000:400::/54,rogers.com,Rogers Communications Canada Inc.,CA
+195.67.102.72/29,scott-sports.se,Scott Sports AB,SE
+1.6.236.0/22,sifycorp.com,Sify Limited,IN
+67.69.154.168/29,softmoc.com,SOFT-MOC INC.,CA
+31.29.168.0/21,stream-tv.ru,MTS PJSC,RU
+89.212.84.0/22,t-2.net,"T-2, d.o.o.",SI
+74.211.91.100/30,tdstelecom.com,TDS TELECOM,US
+31.199.227.64/26,telecomitalia.it,Telecom Italia S.p.A.,IT
+88.54.121.32/29,telecomitalia.it,Telecom Italia S.p.A.,IT
+187.9.217.128/25,telefonica.com.br,TELEFÔNICA BRASIL S.A,BR
+2804:7f7:ce65:80::/57,telefonica.com.br,TELEFÔNICA BRASIL S.A,BR
+2003:c9:c900::/40,telekom.com,Deutsche Telekom AG,DE
+61.47.108.0/22,telstra.net,Telstra Global Internet Services Network Blocks,JP
+200.31.84.8/30,tivit.com,SYNAPSIS COLOMBIA SAS,CO
+182.71.82.216/29,tridentinfosol.com,TRIDENT INFOSOL PVT LTD,IN
+12.208.44.152/29,ulta.com,ULTA INC C-O CASS INFO SYSTEM,US
+63.255.184.136/29,uniti.com,Windstream Communications LLC,US
+173.189.212.144/29,uniti.com,Windstream Communications LLC,US
+212.102.103.12/30,vayfi.com.tr,Vayfi Bilgi Teknolojileri A.S.,TR
+66.238.16.0/21,verizon.com,Verizon Business,US
+208.250.4.0/25,verizon.com,Verizon Business,US
+173.166.55.68/32,vitta.com,Vitta,US
+213.124.59.224/29,vodafone.nl,Vodafone Libertel B.V.,NL
+69.220.76.184/29,wayport.net,"Wayport, LLC",US
+80.18.197.32/29,wuerth.it,WUERTH SRL,IT

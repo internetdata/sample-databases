@@ -1,0 +1,101 @@
+start_ip,end_ip,name,domain,type,country,asn,as_name,as_domain,as_type
+1.0.0.0,1.0.0.255,APNIC and Cloudflare DNS Resolver project,cloudflare.com,hosting,AU,13335,"Cloudflare, Inc.",cloudflare.com,hosting
+12.0.192.64,12.0.192.71,"PIPELINE HEALTH, LLC",pipelinehealth.us,business,US,7018,"AT&T Enterprises, LLC",att.com,isp
+12.50.112.192,12.50.112.207,"AT&T Enterprises, LLC",att.com,isp,US,7018,"AT&T Enterprises, LLC",att.com,isp
+12.167.39.32,12.167.39.39,ARBORLAND,,business,US,7018,"AT&T Enterprises, LLC",att.com,isp
+12.228.38.160,12.228.38.167,"ADVANCED STORES COMPANY, INC.",,business,US,7018,"AT&T Enterprises, LLC",att.com,isp
+24.97.38.40,24.97.38.87,Charter Communications Inc,charter.com,isp,US,11351,Charter Communications Inc,charter.com,isp
+31.195.245.124,31.195.245.127,COOPERATIVA AUTOTRASPORTI PRATESE SOC.COOP.VA,,business,IT,3269,Telecom Italia S.p.A.,telecomitalia.it,isp
+38.88.211.16,38.88.211.23,Itau Corpbanca,,business,US,174,"Cogent Communications, LLC",cogentco.com,isp
+40.138.129.116,40.138.129.127,WORLD TRAVEL,worldtravel.com,business,US,7029,Windstream Communications LLC,uniti.com,isp
+46.24.173.224,46.24.173.239,GM NEOLOGIC S.L.,,business,ES,12430,VODAFONE ESPANA S.A.U.,vodafone.es,isp
+50.76.153.160,50.76.153.167,BUFFALO WILD WINGS,buffalowildwings.com,business,US,7922,"Comcast Cable Communications, LLC",comcast.com,isp
+58.34.107.163,58.34.107.163,三菱日联银行（中国）有限公司,mufg.com.cn,business,CN,4812,China Telecom (Group),chinatelecom.cn,isp
+59.188.102.144,59.188.102.159,MPF HK,,government,HK,9269,Hong Kong Broadband Network Ltd.,hkbn.net,isp
+61.164.255.48,61.164.255.255,China Telecom,chinatelecom.cn,isp,CN,136190,"JINHUA, ZHEJIANG Province, P.R.China.",chinatelecom.cn,hosting
+62.87.208.60,62.87.208.67,Netia SA,netia.pl,isp,PL,12741,Netia SA,netia.pl,isp
+62.242.74.16,62.242.74.23,TDC Holding A/S,tdcgroup.com,isp,DK,3292,TDC Holding A/S,tdcgroup.com,isp
+63.202.126.16,63.202.126.23,"AT&T Enterprises, LLC",att.com,isp,US,7018,"AT&T Enterprises, LLC",att.com,isp
+64.80.27.112,64.80.27.127,Windstream Communications LLC,uniti.com,isp,US,7029,Windstream Communications LLC,uniti.com,isp
+64.199.239.98,64.199.239.99,SCPCC - KIDS HEALTH OCILLA - SUITE B,,business,US,7029,Windstream Communications LLC,uniti.com,isp
+65.144.137.152,65.144.137.159,FIRSTWATCH LLC,newgentek.com,business,US,209,"CenturyLink Communications, LLC",lumen.com,isp
+66.60.105.96,66.60.105.127,True North Logic,,business,US,13415,"FirstDigital Communications, LLC",firstdigital.com,isp
+66.225.133.176,66.225.133.183,FORMATIONS INC,formations-inc.com,business,CA,20161,TeraGo Networks Inc.,terago.ca,isp
+67.148.97.192,67.148.97.199,AT HOME STORES LLC,athome.com,business,US,209,"CenturyLink Communications, LLC",lumen.com,isp
+68.252.123.56,68.252.123.79,"AT&T Enterprises, LLC",att.com,isp,US,7018,"AT&T Enterprises, LLC",att.com,isp
+69.213.84.128,69.213.84.151,"AT&T Enterprises, LLC",att.com,isp,US,7018,"AT&T Enterprises, LLC",att.com,isp
+70.140.196.232,70.140.196.239,SAAB DOWNERS GROVE LUXURY,,business,US,7018,"AT&T Enterprises, LLC",att.com,isp
+71.156.96.128,71.156.96.191,"OXONICA, INC",oxonica.com,business,US,7018,"AT&T Enterprises, LLC",att.com,isp
+74.92.197.88,74.92.197.95,Lamar Advertising,lamar.com,business,US,7922,"Comcast Cable Communications, LLC",comcast.com,isp
+75.49.232.208,75.49.232.215,PRESIDENT CASINO,,business,US,7018,"AT&T Enterprises, LLC",att.com,isp
+76.161.110.168,76.161.110.175,Windstream Communications LLC,uniti.com,isp,US,7029,Windstream Communications LLC,uniti.com,isp
+77.60.247.136,77.60.247.139,KPN B.V.,kpn.com,isp,NL,1136,KPN B.V.,kpn.com,isp
+78.156.140.0,78.156.140.255,Ceska opticka sit,,isp,CZ,207945,CNI Group s.r.o.,cni-group.cz,isp
+80.122.123.212,80.122.123.215,greenTEC Gartengestaltungen Ges.m.b.H.,,business,AT,8447,A1 Telekom Austria AG,a1.net,isp
+81.72.250.160,81.72.250.167,DICOMI SRL,,business,IT,3269,Telecom Italia S.p.A.,telecomitalia.it,isp
+81.246.118.144,81.246.118.151,Ardovlam,,business,BE,5432,Proximus NV,proximus.com,isp
+82.191.220.224,82.191.220.231,SOC.COOP.C.S.-COOPERAZ.ESOLIDA,,business,IT,3269,Telecom Italia S.p.A.,telecomitalia.it,isp
+83.238.103.240,83.238.103.247,Netia SA,netia.pl,isp,PL,12741,Netia SA,netia.pl,isp
+85.46.184.64,85.46.184.71,Telecom Italia S.p.A.,telecomitalia.it,isp,IT,3269,Telecom Italia S.p.A.,telecomitalia.it,isp
+87.118.136.160,87.118.136.175,Cooolbox AD,cooolbox.bg,isp,BG,9070,Cooolbox AD,cooolbox.bg,isp
+88.54.112.8,88.54.112.15,RANZA SPA,,business,IT,3269,Telecom Italia S.p.A.,telecomitalia.it,isp
+89.145.226.128,89.145.234.98,Wavenet Limited,wavenet.co.uk,isp,GB,5413,Wavenet Limited,wavenet.co.uk,isp
+90.102.58.15,90.102.58.15,SATORI,,business,FR,3215,Orange S.A.,orange.com,isp
+92.52.108.248,92.52.108.255,CIDM Global Authentication,,business,GB,15395,Rackspace Ltd.,rackspace.com,hosting
+92.207.224.80,92.207.224.95,ST. BERNARDS CATHOLIC GRAMMAR SCHOOL sold by Talking Business (Southern) Ltd,,education,GB,31655,Gamma Telecom Holdings Ltd,gamma.co.uk,isp
+94.46.57.51,94.46.57.51,Miss Hosting AB,misshosting.com,hosting,NL,200719,Miss Hosting AB,misshosting.com,hosting
+95.167.74.104,95.167.74.111,Kromskoy zavod semyan,,business,RU,12389,PJSC Rostelecom,rt.ru,isp
+98.141.208.96,98.141.208.119,Windstream Communications LLC,uniti.com,isp,US,7029,Windstream Communications LLC,uniti.com,isp
+99.91.17.112,99.91.17.127,"AT&T Enterprises, LLC",att.com,isp,US,7018,"AT&T Enterprises, LLC",att.com,isp
+101.0.197.0,101.0.197.255,CHINYOUNG Network Cafe,,business,TW,9676,SaveCom Internation Inc.,savecom.net.tw,isp
+107.217.17.176,107.217.21.255,"AT&T Enterprises, LLC",att.com,isp,US,7018,"AT&T Enterprises, LLC",att.com,isp
+111.102.68.56,111.102.68.79,FAMILYNET JAPAN CORPORATION,fnj.co.jp,isp,JP,2516,KDDI CORPORATION,kddi.com,isp
+117.250.142.32,117.250.142.39,CDAC TRIVENDRUM AT WCD CONTROL ROOM CAPITAL MALL,,government,IN,9829,National Internet Backbone,bsnl.co.in,isp
+122.54.105.39,122.54.105.39,Philippine Long Distance Telephone Company,pldt.com,isp,PH,9299,Philippine Long Distance Telephone Company,pldt.com,isp
+123.234.34.44,123.234.35.145,China Unicom Shandong Province Network,chinaunicom.cn,isp,CN,4837,CHINA UNICOM China169 Backbone,chinaunicom.cn,isp
+125.46.12.100,125.46.12.103,Diyuan Hotel,,business,CN,4837,CHINA UNICOM China169 Backbone,chinaunicom.cn,isp
+142.0.159.56,142.0.159.59,Rogers Communications Canada Inc.,rogers.com,isp,CA,812,Rogers Communications Canada Inc.,rogers.com,isp
+151.12.253.104,151.12.253.111,CUSIMANO SRL,,isp,IT,1267,WIND TRE S.P.A.,windtre.it,isp
+161.184.166.240,161.184.166.247,URBN LEAF CANNABIS COMPANY LTD,,business,CA,852,TELUS Communications Inc.,telus.com,isp
+170.247.113.90,170.247.113.93,INFORBARRA TELECOM,inforbarra.com.br,isp,BR,263903,INFORBARRA TELECOM,inforbarra.com.br,isp
+173.197.39.72,173.197.39.99,Charter Communications Inc,charter.com,isp,US,11427,Charter Communications Inc,charter.com,isp
+177.92.179.32,177.92.179.47,Une Telecom Ltda,unetelecom.com.br,isp,BR,52573,Une Telecom Ltda,unetelecom.com.br,isp
+181.15.162.184,181.15.162.223,Telecom Argentina S.A.,telecom.com.ar,isp,AR,7303,Telecom Argentina S.A.,telecom.com.ar,isp
+184.29.148.0,184.29.159.255,"Akamai Technologies, Inc.",akamai.com,hosting,US,21342,Akamai International B.V.,akamai.com,hosting
+185.250.251.96,185.250.251.127,HostPress GmbH,hostpress.de,hosting,DE,48314,Michael Sebastian Schinzel trading as IP-Projects GmbH & Co. KG,ip-projects.de,hosting
+188.125.182.107,188.125.182.107,Holmes Group Inc,holmesgroup.com,business,NZ,4049,CELLO GROUP LIMITED,cello.co.nz,isp
+190.4.52.224,190.4.52.231,UNITEC,,business,HN,23383,METRORED S.A. DE C.V.,tigo.com.hn,isp
+192.109.230.0,192.109.230.255,Symbolics Systemhaus GmbH,,hosting,DE,,,,
+194.7.150.4,194.7.150.7,Bedrijvencentrum Zennevallei,,business,BE,702,Verizon Business,verizon.com,isp
+194.184.237.72,194.184.237.75,OMAS STAMPI SOCIETA' A RESPONSABILITA' LIMITATA,,business,IT,3269,Telecom Italia S.p.A.,telecomitalia.it,isp
+195.39.70.128,195.39.70.159,MEIXNER & HANUS,,business,CZ,13036,T-Mobile Czech Republic a.s.,t-mobile.cz,isp
+195.168.210.96,195.168.210.103,Geba Cables and Wires Slovakia s.r.o.,,business,SK,5578,"SWAN, a.s.",swan.sk,isp
+198.133.247.0,198.133.247.255,"Gannett Satellite Information Network, LLC.",gannett.com,business,US,,,,
+200.153.49.176,200.153.49.191,HT SERVIÇOS DE TELECOMUNICAÇÕES LTDA,hipernet.net,isp,BR,10429,TELEFÔNICA BRASIL S.A,telefonica.com.br,isp
+202.6.3.0,202.6.4.255,Commonwealth Scientific and Industrial Research Organisation,csiro.au,education,AU,6262,Commonwealth Scientific and Industrial,csiro.au,education
+203.127.155.64,203.127.155.79,STANDARD CHARTERED BANK,sc.com,business,SG,3758,SingNet,singnet.com.sg,isp
+206.131.202.0,206.131.205.255,CORETEL NETWORKS (INTERNATIONAL) PTE LTD,coretelnet.com,isp,SG,133748,CORETEL NETWORKS (INTERNATIONAL) PTE LTD,coretelnet.com,isp
+208.57.204.160,208.57.204.175,Webn Network,webntv.net,business,US,14265,TPx Communications,tpx.com,isp
+209.83.89.242,209.83.89.243,KINNEY DRUGS # 107,,business,US,7029,Windstream Communications LLC,uniti.com,isp
+210.8.197.160,210.8.197.167,AAPT Limited,vocus.com.au,isp,AU,2764,AAPT Limited,vocus.com.au,isp
+212.8.98.136,212.8.98.143,"BYOU HOTELS, S.A.",,business,ES,12338,Euskaltel S.A.,euskaltel.com,isp
+212.158.211.144,212.158.211.151,Charity Logistics,,business,GB,25310,Vodafone Limited,vodafone.com,isp
+213.26.217.12,213.26.217.15,INNOVA S.P.A.,innova.it,business,IT,3269,Telecom Italia S.p.A.,telecomitalia.it,isp
+213.152.17.152,213.152.17.159,Zayo Infrastructure France SA,zayoeurope.com,isp,FR,8218,Zayo Infrastructure France SA,zayoeurope.com,isp
+216.81.57.28,216.81.57.31,Wright Findlay Zak,,business,US,21513,Beanfield Technologies Inc.,beanfield.com,isp
+217.56.60.96,217.56.60.111,Telecom Italia S.p.A.,telecomitalia.it,isp,IT,3269,Telecom Italia S.p.A.,telecomitalia.it,isp
+217.193.125.160,217.193.125.160,Comicro-Netsys AG,,business,CH,3303,Swisscom (Schweiz) AG,swisscom.com,isp
+218.249.40.96,218.249.40.111,Beijing SHI DAI HUA REN YUN SHU CO.LTD,,business,CN,4808,China Unicom Beijing Province Network,chinaunicom.cn,isp
+221.224.53.160,221.224.53.175,"China Railway Zo Bureau Group the lst Enginscring Co,Ltd",,business,CN,140292,CHINATELECOM Jiangsu province Suzhou 5G network,chinatelecom.cn,isp
+2001:690:810:62::,2001:690:810:62:ffff:ffff:ffff:ffff,Universidade da Beira Interior,ubi.pt,education,PT,1930,"Fundacao para a Ciencia e a Tecnologia, I.P.",fccn.pt,education
+2001:1890:1577:a900::,2001:1890:1577:a9ff:ffff:ffff:ffff:ffff,BAC FABRICATION,,business,US,7018,"AT&T Enterprises, LLC",att.com,isp
+2001:1890:19f5:1c00::,2001:1890:19f5:1cff:ffff:ffff:ffff:ffff,"OWENS-ILLINOIS GENERAL, INC.",,business,US,7018,"AT&T Enterprises, LLC",att.com,isp
+2001:1890:1fc0:6500::,2001:1890:1fc0:65ff:ffff:ffff:ffff:ffff,MARRIOTT CORPORATION,marriott.com,business,US,7018,"AT&T Enterprises, LLC",att.com,isp
+2001:4457:0:c2::,2001:4457:0:c2:ffff:ffff:ffff:ffff,1-11UNHY4 METROPAC MOVERS INC.,,business,PH,9299,Philippine Long Distance Telephone Company,pldt.com,isp
+2401:2d60:3:100::,2401:2d60:3:10f:ffff:ffff:ffff:ffff,NextHop Co.Ltd.,,business,JP,150369,TelHi Corporation,telhi.co.jp,isp
+2600:6001:f4f4::,2600:6001:f4f7:ffff:ffff:ffff:ffff:ffff,Charter Communications Inc,charter.com,isp,US,11351,Charter Communications Inc,charter.com,isp
+2620:19d::,2620:19d:ffff:ffff:ffff:ffff:ffff:ffff,Department of Education,nyc.gov,education,US,,,,
+2a00:2381:e539:100::,2a00:2381:e539:ffff:ffff:ffff:ffff:ffff,0012819143-FCC CONSTRUCTION SA UK BRANCH OFFICE,,business,GB,2856,British Telecommunications Limited,bt.net,isp
+2a01:4f8:192:34a1::,2a01:4f8:192:34a1:ffff:ffff:ffff:ffff,pixelpoint multimedia werbe gmbh,,business,DE,24940,Hetzner Online GmbH,hetzner.com,hosting
+2a01:4f9:2b:3032::,2a01:4f9:2b:3040:ffff:ffff:ffff:ffff,Hetzner Online GmbH,hetzner.com,hosting,DE,24940,Hetzner Online GmbH,hetzner.com,hosting
+2a02:1630:d500:435a::,2a02:1630:d500:435a:ffff:ffff:ffff:ffff,UNIDATA S.p.A.,twt.it,isp,IT,30848,UNIDATA S.p.A.,twt.it,isp
