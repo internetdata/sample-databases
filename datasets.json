@@ -3784,6 +3784,133 @@
             }
         },
         {
+            "id": "web_ip_v1",
+            "name": "Web IP",
+            "summary": "Every host that answered a TLS handshake or HTTP request on TCP port 443 or 80, with the TLS certificate, JA3S, HTTP Server header, status, redirect, cookie names and page title.",
+            "folder": "web-ip",
+            "formats": [
+                "csvgz"
+            ],
+            "open": false,
+            "update_frequency": "weekly",
+            "docs": "https://docs.internetdata.io/database/web-ip",
+            "page": "https://internetdata.io/databases/web-ip",
+            "sample": {
+                "cut": "2026-11-14",
+                "rows": 100,
+                "files": {
+                    "csv": "web-ip/web_ip_v1.sample.csv",
+                    "csvgz": "web-ip/web_ip_v1.sample.csv.gz"
+                }
+            },
+            "database": {
+                "entries": 87879035,
+                "size": {
+                    "csvgz": 3935354215
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "port",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "tls_ok",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "session_ok",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "status_code",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "server",
+                        "type": "string"
+                    },
+                    {
+                        "name": "location",
+                        "type": "string"
+                    },
+                    {
+                        "name": "title",
+                        "type": "string"
+                    },
+                    {
+                        "name": "set_cookie_names",
+                        "type": "string"
+                    },
+                    {
+                        "name": "cert_subject_cn",
+                        "type": "string"
+                    },
+                    {
+                        "name": "cert_subject_o",
+                        "type": "string"
+                    },
+                    {
+                        "name": "cert_issuer_dn",
+                        "type": "string"
+                    },
+                    {
+                        "name": "cert_sans",
+                        "type": "string"
+                    },
+                    {
+                        "name": "cert_not_before",
+                        "type": "date"
+                    },
+                    {
+                        "name": "cert_not_after",
+                        "type": "date"
+                    },
+                    {
+                        "name": "cert_fp_sha256",
+                        "type": "string"
+                    },
+                    {
+                        "name": "cert_self_signed",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "cert_browser_trusted",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "ja3s",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tls_version",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tls_cipher",
+                        "type": "string"
+                    },
+                    {
+                        "name": "http_version",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
             "id": "bittorrent_ip_v1",
             "name": "BitTorrent IP",
             "summary": "Every address where a BitTorrent client was seen in the last 90 days, flagged verified or not, with how many clients shared it at once and the codes they identify themselves by.",

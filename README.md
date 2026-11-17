@@ -68,6 +68,7 @@
 | [SSH IP](ssh-ip/) | Every host that completed an SSH handshake on TCP port 22, with its server banner and host-key fingerprint. | CSV | Weekly |
 | [SMTP IP](smtp-ip/) | Every host that returned an SMTP greeting on TCP port 587, with the greeting banner. | CSV | Weekly |
 | [DNS Resolver IP](dns-resolver-ip/) | Every host answering DNS on UDP port 53, flagged for recursion and whether it is a working open resolver. | CSV | Weekly |
+| [Web IP](web-ip/) | Every host that answered a TLS handshake or HTTP request on TCP port 443 or 80, with the TLS certificate, JA3S, HTTP Server header, status, redirect, cookie names and page title. | CSV | Weekly |
 | [BitTorrent IP](bittorrent-ip/) | Every address where a BitTorrent client was seen in the last 90 days, flagged verified or not, with how many clients shared it at once and the codes they identify themselves by. | CSV | Daily |
 
 ### Domain
