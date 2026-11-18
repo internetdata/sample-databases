@@ -41,7 +41,7 @@ A `host` of `.` is a null MX (RFC 7505): the domain publishes that it accepts no
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+DNS+Database+evaluation&products=Domain+DNS+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-mx) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o domain_dns_mx_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=domain_dns_mx_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o domain_dns_mx_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=domain_dns_mx_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/domain-dns?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-mx#domain-dns-mx), cut from the latest build.

@@ -48,7 +48,7 @@ Every IPv4 and IPv6 address where a BitTorrent client was seen in the last 90 da
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=BitTorrent+IP+Database+evaluation&products=BitTorrent+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=bittorrent-ip) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o bittorrent_ip_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=bittorrent_ip_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o bittorrent_ip_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=bittorrent_ip_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/bittorrent-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=bittorrent-ip), cut from the latest build.

@@ -37,7 +37,7 @@ A domain with ranges of its own can be here too, as a brand acquired by another 
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+IP+Ranges+Database+evaluation&products=Domain+IP+Ranges+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-ip-ranges-alias) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o domain_ip_ranges_alias_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=domain_ip_ranges_alias_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o domain_ip_ranges_alias_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=domain_ip_ranges_alias_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/domain-ip-ranges?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-ip-ranges-alias#domain-ip-ranges-alias), cut from the latest build.

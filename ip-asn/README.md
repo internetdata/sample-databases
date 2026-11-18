@@ -80,8 +80,8 @@ Each record is looked up by IP address and holds:
 IP ASN is an Open database, free under CC BY-SA 4.0 with an InternetData account: [sign up](https://internetdata.io/signup?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-asn), then with your API key:
 
 ```bash
-curl -L -o ip_asn_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=ip_asn_v1&format=csvgz&apikey=$APIKEY'
-curl -L -o ip_asn_v1.mmdb 'https://internetdata.io/api/v2/database/download?id=ip_asn_v1&format=mmdb&apikey=$APIKEY'
+curl -L -o ip_asn_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=ip_asn_v1&format=csvgz&apikey=$APIKEY"
+curl -L -o ip_asn_v1.mmdb "https://internetdata.io/api/v2/database/download?id=ip_asn_v1&format=mmdb&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/ip-asn?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-asn), cut from the latest build.

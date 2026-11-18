@@ -39,7 +39,7 @@ A prefix that more than one AS originates (MOAS) has a row per origin. `peer_cou
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=BGP+Route+Database+evaluation&products=BGP+Route+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=bgp-route) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o bgp_route_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=bgp_route_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o bgp_route_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=bgp_route_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/bgp-route?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=bgp-route), cut from the latest build.

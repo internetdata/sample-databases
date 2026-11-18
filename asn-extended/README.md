@@ -80,7 +80,7 @@ An AS number seen in no AS path keeps its row, with no rank and zeros elsewhere.
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=ASN+Extended+Database+evaluation&products=ASN+Extended+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-extended) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o asn_extended_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=asn_extended_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o asn_extended_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=asn_extended_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/asn-extended?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-extended), cut from the latest build.

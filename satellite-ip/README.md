@@ -84,8 +84,8 @@ Each record is looked up by IP address and holds:
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Satellite+IP+Database+evaluation&products=Satellite+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=satellite-ip) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o satellite_ip_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=satellite_ip_v1&format=csvgz&apikey=$APIKEY'
-curl -L -o satellite_ip_v1.mmdb 'https://internetdata.io/api/v2/database/download?id=satellite_ip_v1&format=mmdb&apikey=$APIKEY'
+curl -L -o satellite_ip_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=satellite_ip_v1&format=csvgz&apikey=$APIKEY"
+curl -L -o satellite_ip_v1.mmdb "https://internetdata.io/api/v2/database/download?id=satellite_ip_v1&format=mmdb&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/satellite-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=satellite-ip), cut from the latest build.

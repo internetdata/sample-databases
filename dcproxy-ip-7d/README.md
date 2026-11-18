@@ -54,8 +54,8 @@ Each record is looked up by IP address and holds:
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Datacenter+Proxy+IP+Database+evaluation&products=Datacenter+Proxy+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=dcproxy-ip-7d) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o dcproxy_ip_7d_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=dcproxy_ip_7d_v1&format=csvgz&apikey=$APIKEY'
-curl -L -o dcproxy_ip_7d_v1.mmdb 'https://internetdata.io/api/v2/database/download?id=dcproxy_ip_7d_v1&format=mmdb&apikey=$APIKEY'
+curl -L -o dcproxy_ip_7d_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=dcproxy_ip_7d_v1&format=csvgz&apikey=$APIKEY"
+curl -L -o dcproxy_ip_7d_v1.mmdb "https://internetdata.io/api/v2/database/download?id=dcproxy_ip_7d_v1&format=mmdb&apikey=$APIKEY"
 ```
 
 It's part of [Datacenter Proxy IP](https://internetdata.io/databases/datacenter-proxy-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=dcproxy-ip-7d) on internetdata.io.

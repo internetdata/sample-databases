@@ -40,7 +40,7 @@ Every host answering DNS on UDP port 53, flagged for recursion and whether it is
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=DNS+Resolver+IP+Database+evaluation&products=DNS+Resolver+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=dns-resolver-ip) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o dns_resolver_ip_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=dns_resolver_ip_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o dns_resolver_ip_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=dns_resolver_ip_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/dns-resolver-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=dns-resolver-ip), cut from the latest build.

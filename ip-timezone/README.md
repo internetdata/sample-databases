@@ -49,8 +49,8 @@ Each record is looked up by IP address and holds:
 IP Timezone is an Open database, free under CC BY-SA 4.0 with an InternetData account: [sign up](https://internetdata.io/signup?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-timezone), then with your API key:
 
 ```bash
-curl -L -o ip_timezone_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=ip_timezone_v1&format=csvgz&apikey=$APIKEY'
-curl -L -o ip_timezone_v1.mmdb 'https://internetdata.io/api/v2/database/download?id=ip_timezone_v1&format=mmdb&apikey=$APIKEY'
+curl -L -o ip_timezone_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=ip_timezone_v1&format=csvgz&apikey=$APIKEY"
+curl -L -o ip_timezone_v1.mmdb "https://internetdata.io/api/v2/database/download?id=ip_timezone_v1&format=mmdb&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/ip-timezone?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-timezone), cut from the latest build.

@@ -75,7 +75,7 @@ Contacts are resolved to names, emails and phone numbers: admin and technical fr
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=ASN+Whois+Database+evaluation&products=ASN+Whois+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-whois) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o asn_whois_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=asn_whois_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o asn_whois_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=asn_whois_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/asn-whois?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-whois), cut from the latest build.

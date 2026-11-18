@@ -62,7 +62,7 @@ Free under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), like
 ASN is an Open database, free under CC BY-SA 4.0 with an InternetData account: [sign up](https://internetdata.io/signup?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn), then with your API key:
 
 ```bash
-curl -L -o asn_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=asn_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o asn_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=asn_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/asn?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn), cut from the latest build.

@@ -78,8 +78,8 @@ Each record is looked up by IP address and holds:
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+RWHOIS+Database+evaluation&products=IP+RWHOIS+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-rwhois) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o ip_rwhois_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=ip_rwhois_v1&format=csvgz&apikey=$APIKEY'
-curl -L -o ip_rwhois_v1.mmdb 'https://internetdata.io/api/v2/database/download?id=ip_rwhois_v1&format=mmdb&apikey=$APIKEY'
+curl -L -o ip_rwhois_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=ip_rwhois_v1&format=csvgz&apikey=$APIKEY"
+curl -L -o ip_rwhois_v1.mmdb "https://internetdata.io/api/v2/database/download?id=ip_rwhois_v1&format=mmdb&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/ip-rwhois?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-rwhois), cut from the latest build.

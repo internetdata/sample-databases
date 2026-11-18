@@ -57,7 +57,7 @@ Every host that answered a TLS handshake or an HTTP request on TCP port 443 or 8
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Web+IP+Database+evaluation&products=Web+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=web-ip) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o web_ip_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=web_ip_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o web_ip_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=web_ip_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/web-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=web-ip), cut from the latest build.

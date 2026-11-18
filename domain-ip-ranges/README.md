@@ -43,7 +43,7 @@ To look a company up by another of its domains, read [Domain IP Ranges Alias](ht
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+IP+Ranges+Database+evaluation&products=Domain+IP+Ranges+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-ip-ranges) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o domain_ip_ranges_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=domain_ip_ranges_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o domain_ip_ranges_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=domain_ip_ranges_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/domain-ip-ranges?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-ip-ranges), cut from the latest build.

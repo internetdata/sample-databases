@@ -40,7 +40,7 @@ Names are domains registered under the generic top-level domains and under .ee, 
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+DNS+Database+evaluation&products=Domain+DNS+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-a) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o domain_dns_a_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=domain_dns_a_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o domain_dns_a_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=domain_dns_a_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/domain-dns?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-a), cut from the latest build.

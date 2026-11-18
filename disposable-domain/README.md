@@ -46,7 +46,7 @@ Some providers give each inbox a random subdomain of a domain they control, and 
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Disposable+Domain+Database+evaluation&products=Disposable+Domain+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=disposable-domain) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o disposable_domain_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=disposable_domain_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o disposable_domain_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=disposable_domain_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/disposable-domain?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=disposable-domain), cut from the latest build.

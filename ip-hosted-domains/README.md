@@ -42,7 +42,7 @@ The same domains by the announced range their addresses are in, with the AS anno
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Hosted+Domains+Database+evaluation&products=IP+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o ip_hosted_domains_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=ip_hosted_domains_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o ip_hosted_domains_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=ip_hosted_domains_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains), cut from the latest build.

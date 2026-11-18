@@ -53,8 +53,8 @@ Each record is looked up by IP address and holds:
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Carrier+IP+Database+evaluation&products=Carrier+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=carrier-ip) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o carrier_ip_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=carrier_ip_v1&format=csvgz&apikey=$APIKEY'
-curl -L -o carrier_ip_v1.mmdb 'https://internetdata.io/api/v2/database/download?id=carrier_ip_v1&format=mmdb&apikey=$APIKEY'
+curl -L -o carrier_ip_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=carrier_ip_v1&format=csvgz&apikey=$APIKEY"
+curl -L -o carrier_ip_v1.mmdb "https://internetdata.io/api/v2/database/download?id=carrier_ip_v1&format=mmdb&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/carrier-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=carrier-ip), cut from the latest build.

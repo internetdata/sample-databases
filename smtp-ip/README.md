@@ -39,7 +39,7 @@ Every host that returned an SMTP greeting on TCP port 587, with the greeting it 
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=SMTP+IP+Database+evaluation&products=SMTP+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=smtp-ip) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o smtp_ip_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=smtp_ip_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o smtp_ip_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=smtp_ip_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/smtp-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=smtp-ip), cut from the latest build.

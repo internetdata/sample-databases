@@ -40,7 +40,7 @@ Every host that completed an SSH handshake on TCP port 22, with the server banne
 The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=SSH+IP+Database+evaluation&products=SSH+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ssh-ip) to test the whole file first. With a licensed API key:
 
 ```bash
-curl -L -o ssh_ip_v1.csv.gz 'https://internetdata.io/api/v2/database/download?id=ssh_ip_v1&format=csvgz&apikey=$APIKEY'
+curl -L -o ssh_ip_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=ssh_ip_v1&format=csvgz&apikey=$APIKEY"
 ```
 
 Today's sample is on [its page](https://internetdata.io/databases/ssh-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ssh-ip), cut from the latest build.
