@@ -9,8 +9,8 @@ Every announced IP range registered domains resolve to, with its AS, how many do
 | Update frequency | Weekly |
 | Full database | 386,967 entries, 186 MB as CSV, on 2026-11-15 |
 | This sample | 100 rows from the 2026-11-15 build |
-| License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Hosted+Domains+Database+evaluation&products=IP+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) |
-| Docs | [docs.internetdata.io/database/ip-hosted-domains/range-hosted-domains](https://docs.internetdata.io/database/ip-hosted-domains/range-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) |
+| License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Range+Hosted+Domains+Database+evaluation&products=Range+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) |
+| Docs | [docs.internetdata.io/database/range-hosted-domains](https://docs.internetdata.io/database/range-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) |
 
 ## Files
 
@@ -23,7 +23,9 @@ Every announced IPv4 and IPv6 range that registered domains resolve to, one row 
 
 A range is the one [IP ASN](https://docs.internetdata.io/database/ip-asn?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) gives an address: the most specific prefix announcing it, with its origin AS. A range holds none of the addresses of a more specific prefix inside it, which is a row of its own. Addresses in no announced range are left out.
 
-The domains and their order are [IP Hosted Domains](https://docs.internetdata.io/database/ip-hosted-domains/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains)' own, grouped by range: a range carrying thousands is usually a hosting platform, a CDN or a parking service, where unrelated sites sit side by side.
+The domains and their order are [IP Hosted Domains](https://docs.internetdata.io/database/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains)' own, grouped by range: a range carrying thousands is usually a hosting platform, a CDN or a parking service, where unrelated sites sit side by side. [ASN Hosted Domains](https://docs.internetdata.io/database/asn-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) groups the same domains by AS.
+
+Teams read it to judge a range before they block, allow or report it, and filter on `asn` to rank the ranges a host or a cloud announces by the sites on them.
 
 ## Fields
 
@@ -38,12 +40,12 @@ The domains and their order are [IP Hosted Domains](https://docs.internetdata.io
 
 ## The full database
 
-The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Hosted+Domains+Database+evaluation&products=IP+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) to test the whole file first. With a licensed API key:
+The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Range+Hosted+Domains+Database+evaluation&products=Range+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) to test the whole file first. With a licensed API key:
 
 ```bash
 curl -L -o range_hosted_domains_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=range_hosted_domains_v1&format=csvgz&apikey=$APIKEY"
 ```
 
-Today's sample is on [its page](https://internetdata.io/databases/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains#range-hosted-domains), cut from the latest build.
+Today's sample is on [its page](https://internetdata.io/databases/range-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains), cut from the latest build.
 
 Back to [all InternetData sample databases](../).

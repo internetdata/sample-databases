@@ -4249,7 +4249,7 @@
             ],
             "open": false,
             "update_frequency": "weekly",
-            "docs": "https://docs.internetdata.io/database/ip-hosted-domains/ip-hosted-domains",
+            "docs": "https://docs.internetdata.io/database/ip-hosted-domains",
             "page": "https://internetdata.io/databases/ip-hosted-domains",
             "sample": {
                 "cut": "2026-11-15",
@@ -4292,8 +4292,8 @@
             ],
             "open": false,
             "update_frequency": "weekly",
-            "docs": "https://docs.internetdata.io/database/ip-hosted-domains/range-hosted-domains",
-            "page": "https://internetdata.io/databases/ip-hosted-domains#range-hosted-domains",
+            "docs": "https://docs.internetdata.io/database/range-hosted-domains",
+            "page": "https://internetdata.io/databases/range-hosted-domains",
             "sample": {
                 "cut": "2026-11-15",
                 "rows": 100,
@@ -4339,8 +4339,8 @@
             ],
             "open": false,
             "update_frequency": "weekly",
-            "docs": "https://docs.internetdata.io/database/ip-hosted-domains/asn-hosted-domains",
-            "page": "https://internetdata.io/databases/ip-hosted-domains#asn-hosted-domains",
+            "docs": "https://docs.internetdata.io/database/asn-hosted-domains",
+            "page": "https://internetdata.io/databases/asn-hosted-domains",
             "sample": {
                 "cut": "2026-11-15",
                 "rows": 100,

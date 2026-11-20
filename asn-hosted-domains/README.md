@@ -9,8 +9,8 @@ Every AS whose addresses registered domains resolve to, with how many domains th
 | Update frequency | Weekly |
 | Full database | 52,321 entries, 35.4 MB as CSV, on 2026-11-15 |
 | This sample | 100 rows from the 2026-11-15 build |
-| License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Hosted+Domains+Database+evaluation&products=IP+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains) |
-| Docs | [docs.internetdata.io/database/ip-hosted-domains/asn-hosted-domains](https://docs.internetdata.io/database/ip-hosted-domains/asn-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains) |
+| License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=ASN+Hosted+Domains+Database+evaluation&products=ASN+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains) |
+| Docs | [docs.internetdata.io/database/asn-hosted-domains](https://docs.internetdata.io/database/asn-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains) |
 
 ## Files
 
@@ -23,7 +23,9 @@ Every AS whose addresses registered domains resolve to, one row per AS. `total` 
 
 An address counts for the AS [IP ASN](https://docs.internetdata.io/database/ip-asn?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains) gives it, the origin of the most specific prefix announcing it. Addresses in no announced range are left out.
 
-The domains and their order are [IP Hosted Domains](https://docs.internetdata.io/database/ip-hosted-domains/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains)' own, grouped by AS. For a host, a CDN or a cloud, its domains are its customers' sites; for an enterprise network, they are usually the company's own.
+The domains and their order are [IP Hosted Domains](https://docs.internetdata.io/database/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains)' own, grouped by AS, and [Range Hosted Domains](https://docs.internetdata.io/database/range-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains) has them by each range an AS announces. For a host, a CDN or a cloud, its domains are its customers' sites; for an enterprise network, they are usually the company's own.
+
+That makes it a measure of hosting market share: `total` ranks hosts, CDNs and clouds by the sites they carry, and `domains` shows which sites those are, a competitor's included.
 
 ## Fields
 
@@ -37,12 +39,12 @@ The domains and their order are [IP Hosted Domains](https://docs.internetdata.io
 
 ## The full database
 
-The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Hosted+Domains+Database+evaluation&products=IP+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains) to test the whole file first. With a licensed API key:
+The full database needs a license: [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=ASN+Hosted+Domains+Database+evaluation&products=ASN+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains) to test the whole file first. With a licensed API key:
 
 ```bash
 curl -L -o asn_hosted_domains_v1.csv.gz "https://internetdata.io/api/v2/database/download?id=asn_hosted_domains_v1&format=csvgz&apikey=$APIKEY"
 ```
 
-Today's sample is on [its page](https://internetdata.io/databases/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains#asn-hosted-domains), cut from the latest build.
+Today's sample is on [its page](https://internetdata.io/databases/asn-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-hosted-domains), cut from the latest build.
 
 Back to [all InternetData sample databases](../).

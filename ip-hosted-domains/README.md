@@ -10,7 +10,7 @@ Every IP address registered domains resolve to, with how many there are and up t
 | Full database | 39,012,516 entries, 1.75 GB as CSV, on 2026-11-15 |
 | This sample | 100 rows from the 2026-11-15 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Hosted+Domains+Database+evaluation&products=IP+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains) |
-| Docs | [docs.internetdata.io/database/ip-hosted-domains/ip-hosted-domains](https://docs.internetdata.io/database/ip-hosted-domains/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains) |
+| Docs | [docs.internetdata.io/database/ip-hosted-domains](https://docs.internetdata.io/database/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains) |
 
 ## Files
 
@@ -25,7 +25,7 @@ The domains are those in Domain List: every one registered under the generic top
 
 A few domains on one address are usually one owner's server. An address with thousands is a hosting platform, a CDN edge or a parking service, where unrelated sites sit side by side, so read `total` before you treat the domains on an address as related. Most addresses hold a single domain.
 
-The same domains by the announced range their addresses are in, with the AS announcing it, are [Range Hosted Domains](https://docs.internetdata.io/database/ip-hosted-domains/range-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains), and by that AS, [ASN Hosted Domains](https://docs.internetdata.io/database/ip-hosted-domains/asn-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains).
+For a whole network, [Range Hosted Domains](https://docs.internetdata.io/database/range-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains) counts the domains on each announced range and [ASN Hosted Domains](https://docs.internetdata.io/database/asn-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains) on each AS, each domain once. Adding up this file's rows can't give those counts: a domain on several of a network's addresses would count once for each, and an address lists 1,000 domains at most.
 
 ## Fields
 
