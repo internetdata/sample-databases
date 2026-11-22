@@ -7,8 +7,8 @@ Every host that returned an SMTP greeting on TCP port 587, with the greeting ban
 | ID | `smtp_ip_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 3,265,950 entries, 50.7 MB as CSV, on 2026-11-14 |
-| This sample | 100 rows from the 2026-11-14 build |
+| Full database | 3,256,333 entries, 50.4 MB as CSV, on 2026-11-21 |
+| This sample | 100 rows from the 2026-11-21 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=SMTP+IP+Database+evaluation&products=SMTP+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=smtp-ip) |
 | Docs | [docs.internetdata.io/database/smtp-ip](https://docs.internetdata.io/database/smtp-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=smtp-ip) |
 

@@ -1,6 +1,6 @@
 # [<img src="https://s3.internetdata.io/internetdata-public/brand/mark.svg" alt="InternetData" height="28"/>](https://internetdata.io/?utm_source=github&utm_medium=referral&utm_campaign=sample-databases) InternetData Sample Databases
 
-100 real rows of every InternetData database that has a sample, in the formats the full databases ship in, with every field documented. Each sample is cut from that database's own build, so its rows, columns and quoting are the full file's. [Residential Proxy IP](https://internetdata.io/contact?purpose=sample&subject=Residential+Proxy+IP+Database+sample&products=Residential+Proxy+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases) and [Mobile Proxy IP](https://internetdata.io/contact?purpose=sample&subject=Mobile+Proxy+IP+Database+sample&products=Mobile+Proxy+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases) have no sample here: ask us for one.
+100 real rows of every InternetData database that has a sample, in the formats the full databases ship in, with every field documented. Each sample is cut from that database's own build, so its rows, columns and quoting are the full file's.
 
 ## Databases
 
@@ -25,6 +25,7 @@
 | [Public Proxy IP 30d](pubproxy-ip-30d/) | Addresses where public proxies listened or their traffic exited in the last 30 days, each flagged entry, exit or both. | CSV, MMDB | Daily |
 | [Public Proxy IP 60d](pubproxy-ip-60d/) | Addresses where public proxies listened or their traffic exited in the last 60 days, each flagged entry, exit or both. | CSV, MMDB | Daily |
 | [Public Proxy IP 90d](pubproxy-ip-90d/) | Addresses where public proxies listened or their traffic exited in the last 90 days, each flagged entry, exit or both. | CSV, MMDB | Daily |
+| [Bot IP](bot-ip/) | IPs bots use, from search and AI crawlers to monitors, scanners and webhook senders, each with its operator, its bots, what they do and whether the operator vouches for the address. | CSV, MMDB | Daily |
 
 ### Ownership
 

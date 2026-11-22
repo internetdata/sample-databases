@@ -7,8 +7,8 @@ Every host answering DNS on UDP port 53, flagged for recursion and whether it is
 | ID | `dns_resolver_ip_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 6,706,146 entries, 35.4 MB as CSV, on 2026-11-14 |
-| This sample | 100 rows from the 2026-11-14 build |
+| Full database | 6,708,256 entries, 35.7 MB as CSV, on 2026-11-21 |
+| This sample | 100 rows from the 2026-11-21 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=DNS+Resolver+IP+Database+evaluation&products=DNS+Resolver+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=dns-resolver-ip) |
 | Docs | [docs.internetdata.io/database/dns-resolver-ip](https://docs.internetdata.io/database/dns-resolver-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=dns-resolver-ip) |
 
@@ -32,8 +32,8 @@ Every host answering DNS on UDP port 53, flagged for recursion and whether it is
 | `recursion_available` | `boolean` | The RA bit in the reply: 1 when the server advertises recursion, empty when it does not. | `1` |
 | `rcode` | `integer` | The DNS response code (0 = NOERROR, 5 = REFUSED, ...), which separates a true open resolver from one that advertises recursion but refuses off-net queries. | `0` |
 | `answer_correct` | `boolean` | 1 if a recursive query for our own hostname returned our address, the scanner's current one or an earlier one a cache kept past the record's 5-minute TTL: a working open recursive resolver with no DNS manipulation. Empty otherwise. | `1` |
-| `first_seen` | `date` | The first day in the 90-day window the host replied. | `2026-08-18` |
-| `last_seen` | `date` | The most recent day the host replied. | `2026-11-14` |
+| `first_seen` | `date` | The first day in the 90-day window the host replied. | `2026-08-24` |
+| `last_seen` | `date` | The most recent day the host replied. | `2026-11-21` |
 
 ## The full database
 

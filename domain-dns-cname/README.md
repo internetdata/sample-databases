@@ -7,8 +7,8 @@ Every CNAME record seen on a domain or host name, with the name it points to, on
 | ID | `domain_dns_cname_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 143,714,698 entries, 1.34 GB as CSV, on 2026-11-15 |
-| This sample | 100 rows from the 2026-11-15 build |
+| Full database | 155,262,722 entries, 1.45 GB as CSV, on 2026-11-22 |
+| This sample | 100 rows from the 2026-11-22 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+DNS+Database+evaluation&products=Domain+DNS+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-cname) |
 | Docs | [docs.internetdata.io/database/domain-dns/domain-dns-cname](https://docs.internetdata.io/database/domain-dns/domain-dns-cname?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-cname) |
 
@@ -33,7 +33,7 @@ The addresses a chain ends at are in [Domain DNS A](https://docs.internetdata.io
 | --- | --- | --- | --- |
 | `name` | `string` | The alias: a domain or host name with a CNAME record, lowercase, internationalized names in punycode (xn--). | `-cdn-talkdesk.s3.amazonaws.com` |
 | `target` | `string` | The name the alias points to. A target can be an alias itself, with a row of its own in this file. | `s3-1-w.amazonaws.com` |
-| `last_seen` | `date` | The most recent day this record was observed. | `2026-11-09` |
+| `last_seen` | `date` | The most recent day this record was observed. | `2026-11-18` |
 
 ## The full database
 

@@ -7,8 +7,8 @@ Each domain's IPv6 addresses from its AAAA records, with CNAMEs followed, one ad
 | ID | `domain_dns_aaaa_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 161,491,248 entries, 1.53 GB as CSV, on 2026-11-15 |
-| This sample | 100 rows from the 2026-11-15 build |
+| Full database | 177,204,044 entries, 1.68 GB as CSV, on 2026-11-22 |
+| This sample | 100 rows from the 2026-11-22 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+DNS+Database+evaluation&products=Domain+DNS+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-aaaa) |
 | Docs | [docs.internetdata.io/database/domain-dns/domain-dns-aaaa](https://docs.internetdata.io/database/domain-dns/domain-dns-aaaa?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-aaaa) |
 
@@ -32,8 +32,8 @@ Names are domains registered under the generic top-level domains and under .ee, 
 | Name | Type | Description | Example |
 | --- | --- | --- | --- |
 | `name` | `string` | The domain or host name, lowercase, internationalized names in punycode (xn--). A www. name is listed only where its addresses differ from its domain's. | `-103wire.canva-apps.cn` |
-| `ip` | `ipaddress` | An IPv6 address the name resolves to, following any CNAME. A name with several addresses has a row for each. | `2409:8c44:1b00:d06:3c72:3a9b:96e1:fffe` |
-| `last_seen` | `date` | The most recent day the name was resolved to this address. | `2026-11-09` |
+| `ip` | `ipaddress` | An IPv6 address the name resolves to, following any CNAME. A name with several addresses has a row for each. | `2409:8720:4001:2:3d7c:2214:a593:fffe` |
+| `last_seen` | `date` | The most recent day the name was resolved to this address. | `2026-11-18` |
 
 ## The full database
 

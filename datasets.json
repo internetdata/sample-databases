@@ -1494,6 +1494,114 @@
             }
         },
         {
+            "id": "bot_ip_v1",
+            "name": "Bot IP",
+            "summary": "IPs bots use, from search and AI crawlers to monitors, scanners and webhook senders, each with its operator, its bots, what they do and whether the operator vouches for the address.",
+            "folder": "bot-ip",
+            "formats": [
+                "csvgz",
+                "mmdb"
+            ],
+            "open": false,
+            "update_frequency": "daily",
+            "docs": "https://docs.internetdata.io/database/bot-ip/bot-ip",
+            "page": "https://internetdata.io/databases/bot-ip",
+            "sample": {
+                "cut": "2026-11-21",
+                "rows": 100,
+                "files": {
+                    "csv": "bot-ip/bot_ip_v1.sample.csv",
+                    "csvgz": "bot-ip/bot_ip_v1.sample.csv.gz",
+                    "mmdb": "bot-ip/bot_ip_v1.sample.mmdb"
+                }
+            },
+            "database": {
+                "entries": 41660,
+                "size": {
+                    "csvgz": 339372,
+                    "mmdb": 799683
+                }
+            },
+            "columns": {
+                "csvgz": [
+                    {
+                        "name": "start_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "end_ip",
+                        "type": "ipaddress"
+                    },
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "agents",
+                        "type": "string"
+                    },
+                    {
+                        "name": "categories",
+                        "type": "string"
+                    },
+                    {
+                        "name": "identity",
+                        "type": "string"
+                    },
+                    {
+                        "name": "verified_by",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ],
+                "mmdb": [
+                    {
+                        "name": "provider",
+                        "type": "string"
+                    },
+                    {
+                        "name": "agents",
+                        "type": "string"
+                    },
+                    {
+                        "name": "categories",
+                        "type": "string"
+                    },
+                    {
+                        "name": "identity",
+                        "type": "string"
+                    },
+                    {
+                        "name": "verified_by",
+                        "type": "string"
+                    },
+                    {
+                        "name": "confidence",
+                        "type": "string"
+                    },
+                    {
+                        "name": "first_seen",
+                        "type": "date"
+                    },
+                    {
+                        "name": "last_seen",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
             "id": "ip_company_v1",
             "name": "IP Company",
             "summary": "The organization that uses each IP range, with its domain and type, and the AS that announces the range.",
@@ -2789,7 +2897,7 @@
             "docs": "https://docs.internetdata.io/database/ip-rdns",
             "page": "https://internetdata.io/databases/ip-rdns",
             "sample": {
-                "cut": "2026-11-14",
+                "cut": "2026-11-21",
                 "rows": 100,
                 "files": {
                     "csv": "ip-rdns/ip_rdns_v1.sample.csv",
@@ -2797,9 +2905,9 @@
                 }
             },
             "database": {
-                "entries": 1236479428,
+                "entries": 1250563084,
                 "size": {
-                    "csvgz": 10194810821
+                    "csvgz": 10463977563
                 }
             },
             "columns": {
@@ -3623,7 +3731,7 @@
             "docs": "https://docs.internetdata.io/database/ssh-ip",
             "page": "https://internetdata.io/databases/ssh-ip",
             "sample": {
-                "cut": "2026-11-14",
+                "cut": "2026-11-21",
                 "rows": 100,
                 "files": {
                     "csv": "ssh-ip/ssh_ip_v1.sample.csv",
@@ -3631,9 +3739,9 @@
                 }
             },
             "database": {
-                "entries": 24056065,
+                "entries": 24121691,
                 "size": {
-                    "csvgz": 979625079
+                    "csvgz": 984960224
                 }
             },
             "columns": {
@@ -3682,7 +3790,7 @@
             "docs": "https://docs.internetdata.io/database/smtp-ip",
             "page": "https://internetdata.io/databases/smtp-ip",
             "sample": {
-                "cut": "2026-11-14",
+                "cut": "2026-11-21",
                 "rows": 100,
                 "files": {
                     "csv": "smtp-ip/smtp_ip_v1.sample.csv",
@@ -3690,9 +3798,9 @@
                 }
             },
             "database": {
-                "entries": 3265950,
+                "entries": 3256333,
                 "size": {
-                    "csvgz": 53118711
+                    "csvgz": 52883976
                 }
             },
             "columns": {
@@ -3737,7 +3845,7 @@
             "docs": "https://docs.internetdata.io/database/dns-resolver-ip",
             "page": "https://internetdata.io/databases/dns-resolver-ip",
             "sample": {
-                "cut": "2026-11-14",
+                "cut": "2026-11-21",
                 "rows": 100,
                 "files": {
                     "csv": "dns-resolver-ip/dns_resolver_ip_v1.sample.csv",
@@ -3745,9 +3853,9 @@
                 }
             },
             "database": {
-                "entries": 6706146,
+                "entries": 6708256,
                 "size": {
-                    "csvgz": 37138013
+                    "csvgz": 37484898
                 }
             },
             "columns": {
@@ -3796,7 +3904,7 @@
             "docs": "https://docs.internetdata.io/database/web-ip",
             "page": "https://internetdata.io/databases/web-ip",
             "sample": {
-                "cut": "2026-11-14",
+                "cut": "2026-11-21",
                 "rows": 100,
                 "files": {
                     "csv": "web-ip/web_ip_v1.sample.csv",
@@ -3804,9 +3912,9 @@
                 }
             },
             "database": {
-                "entries": 87879035,
+                "entries": 92297405,
                 "size": {
-                    "csvgz": 3935354215
+                    "csvgz": 4256090012
                 }
             },
             "columns": {
@@ -4076,7 +4184,7 @@
             "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-aaaa",
             "page": "https://internetdata.io/databases/domain-dns#domain-dns-aaaa",
             "sample": {
-                "cut": "2026-11-15",
+                "cut": "2026-11-22",
                 "rows": 100,
                 "files": {
                     "csv": "domain-dns-aaaa/domain_dns_aaaa_v1.sample.csv",
@@ -4084,9 +4192,9 @@
                 }
             },
             "database": {
-                "entries": 161491248,
+                "entries": 177204044,
                 "size": {
-                    "csvgz": 1645825109
+                    "csvgz": 1805300954
                 }
             },
             "columns": {
@@ -4209,7 +4317,7 @@
             "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-cname",
             "page": "https://internetdata.io/databases/domain-dns#domain-dns-cname",
             "sample": {
-                "cut": "2026-11-15",
+                "cut": "2026-11-22",
                 "rows": 100,
                 "files": {
                     "csv": "domain-dns-cname/domain_dns_cname_v1.sample.csv",
@@ -4217,9 +4325,9 @@
                 }
             },
             "database": {
-                "entries": 143714698,
+                "entries": 155262722,
                 "size": {
-                    "csvgz": 1442461439
+                    "csvgz": 1560814598
                 }
             },
             "columns": {
@@ -4252,7 +4360,7 @@
             "docs": "https://docs.internetdata.io/database/ip-hosted-domains",
             "page": "https://internetdata.io/databases/ip-hosted-domains",
             "sample": {
-                "cut": "2026-11-15",
+                "cut": "2026-11-22",
                 "rows": 100,
                 "files": {
                     "csv": "ip-hosted-domains/ip_hosted_domains_v1.sample.csv",
@@ -4260,9 +4368,9 @@
                 }
             },
             "database": {
-                "entries": 39012516,
+                "entries": 44000089,
                 "size": {
-                    "csvgz": 1881722693
+                    "csvgz": 2102555578
                 }
             },
             "columns": {

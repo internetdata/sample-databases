@@ -7,8 +7,8 @@ The reverse DNS name of every IPv4 and IPv6 address that answers a PTR query.
 | ID | `ip_rdns_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 1,236,479,428 entries, 9.49 GB as CSV, on 2026-11-14 |
-| This sample | 100 rows from the 2026-11-14 build |
+| Full database | 1,250,563,084 entries, 9.75 GB as CSV, on 2026-11-21 |
+| This sample | 100 rows from the 2026-11-21 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+RDNS+Database+evaluation&products=IP+RDNS+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-rdns) |
 | Docs | [docs.internetdata.io/database/ip-rdns](https://docs.internetdata.io/database/ip-rdns?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-rdns) |
 
@@ -29,8 +29,8 @@ IPv6 addresses are written in their compressed form, as in every other database 
 
 | Name | Type | Description | Example |
 | --- | --- | --- | --- |
-| `ip` | `ipaddress` | The IP address, IPv4 or IPv6. | `69.36.97.63` |
-| `domain` | `string` | The host name its reverse DNS (PTR) record points to. | `69-36-97-63.ip.cal.radiant.net` |
+| `ip` | `ipaddress` | The IP address, IPv4 or IPv6. | `162.194.65.207` |
+| `domain` | `string` | The host name its reverse DNS (PTR) record points to. | `162-194-65-207.lightspeed.snantx.sbcglob...` |
 | `forward_confirmed` | `boolean` | Whether the host name's own forward record (A for IPv4, AAAA for IPv6) points back to the address: "true" or "false", or empty when it hasn't been asked yet or every lookup failed. | `true` |
 
 ## The full database

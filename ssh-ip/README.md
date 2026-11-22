@@ -7,8 +7,8 @@ Every host that completed an SSH handshake on TCP port 22, with its server banne
 | ID | `ssh_ip_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 24,056,065 entries, 934 MB as CSV, on 2026-11-14 |
-| This sample | 100 rows from the 2026-11-14 build |
+| Full database | 24,121,691 entries, 939 MB as CSV, on 2026-11-21 |
+| This sample | 100 rows from the 2026-11-21 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=SSH+IP+Database+evaluation&products=SSH+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ssh-ip) |
 | Docs | [docs.internetdata.io/database/ssh-ip](https://docs.internetdata.io/database/ssh-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ssh-ip) |
 
@@ -32,8 +32,8 @@ Every host that completed an SSH handshake on TCP port 22, with the server banne
 | `banner` | `string` | The SSH server identification string the host returned (e.g. SSH-2.0-OpenSSH_9.2p1). | `SSH-1.99-Cisco-1.25` |
 | `host_key_fp` | `string` | The SHA256 fingerprint of the host's SSH public key. | `SHA256:734b42a33ad07d6a2f0fc73798d5cd77f...` |
 | `session_ok` | `boolean` | Always 1: every row is a host that completed the handshake. A port that was open but silent is not shipped. | `1` |
-| `first_seen` | `date` | The first day in the 90-day window the port was observed open. | `2026-08-20` |
-| `last_seen` | `date` | The most recent day the port was observed open. | `2026-11-06` |
+| `first_seen` | `date` | The first day in the 90-day window the port was observed open. | `2026-08-27` |
+| `last_seen` | `date` | The most recent day the port was observed open. | `2026-11-17` |
 
 ## The full database
 

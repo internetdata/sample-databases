@@ -7,8 +7,8 @@ Every IP address registered domains resolve to, with how many there are and up t
 | ID | `ip_hosted_domains_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 39,012,516 entries, 1.75 GB as CSV, on 2026-11-15 |
-| This sample | 100 rows from the 2026-11-15 build |
+| Full database | 44,000,089 entries, 1.96 GB as CSV, on 2026-11-22 |
+| This sample | 100 rows from the 2026-11-22 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Hosted+Domains+Database+evaluation&products=IP+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains) |
 | Docs | [docs.internetdata.io/database/ip-hosted-domains](https://docs.internetdata.io/database/ip-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-hosted-domains) |
 
@@ -34,7 +34,7 @@ For a whole network, [Range Hosted Domains](https://docs.internetdata.io/databas
 | Name | Type | Description | Example |
 | --- | --- | --- | --- |
 | `ip` | `ipaddress` | The IP address, IPv4 or IPv6, that the domains resolve to. | `1.0.0.0` |
-| `total` | `integer` | How many registered domains resolve to the address, through their own A or AAAA record or their www host's, following any CNAME. | `38` |
+| `total` | `integer` | How many registered domains resolve to the address, through their own A or AAAA record or their www host's, following any CNAME. | `41` |
 | `domains` | `string` | Those domains, comma-separated, the most popular first: all of them, or the 1,000 most popular where there are more. Lowercase, internationalized names in punycode (xn--). | `municipio.gob.pa,mealeysfurniture.com,aa...` |
 
 ## The full database
