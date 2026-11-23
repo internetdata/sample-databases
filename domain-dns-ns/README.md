@@ -7,8 +7,8 @@ The nameservers each domain is delegated to, one per row.
 | ID | `domain_dns_ns_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 799,357,556 entries, 4.80 GB as CSV, on 2026-11-15 |
-| This sample | 100 rows from the 2026-11-15 build |
+| Full database | 875,832,276 entries, 5.29 GB as CSV, on 2026-11-22 |
+| This sample | 100 rows from the 2026-11-22 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+DNS+Database+evaluation&products=Domain+DNS+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-ns) |
 | Docs | [docs.internetdata.io/database/domain-dns/domain-dns-ns](https://docs.internetdata.io/database/domain-dns/domain-dns-ns?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-ns) |
 
@@ -33,7 +33,7 @@ Names are domains registered under the generic top-level domains and under .ee, 
 | --- | --- | --- | --- |
 | `name` | `string` | The domain or host name, lowercase, internationalized names in punycode (xn--). | `0---------------------------------------...` |
 | `host` | `string` | A nameserver the name is delegated to. A domain with several has a row for each. | `ns1.domainit.com` |
-| `last_seen` | `date` | The most recent day this delegation was observed. | `2026-11-12` |
+| `last_seen` | `date` | The most recent day this delegation was observed. | `2026-11-16` |
 
 ## The full database
 

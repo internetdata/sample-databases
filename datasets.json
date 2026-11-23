@@ -4141,7 +4141,7 @@
             "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-a",
             "page": "https://internetdata.io/databases/domain-dns",
             "sample": {
-                "cut": "2026-11-15",
+                "cut": "2026-11-22",
                 "rows": 100,
                 "files": {
                     "csv": "domain-dns-a/domain_dns_a_v1.sample.csv",
@@ -4149,9 +4149,9 @@
                 }
             },
             "database": {
-                "entries": 569244687,
+                "entries": 616716442,
                 "size": {
-                    "csvgz": 4447424208
+                    "csvgz": 4827027195
                 }
             },
             "columns": {
@@ -4227,7 +4227,7 @@
             "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-mx",
             "page": "https://internetdata.io/databases/domain-dns#domain-dns-mx",
             "sample": {
-                "cut": "2026-11-15",
+                "cut": "2026-11-22",
                 "rows": 100,
                 "files": {
                     "csv": "domain-dns-mx/domain_dns_mx_v1.sample.csv",
@@ -4235,9 +4235,9 @@
                 }
             },
             "database": {
-                "entries": 316374066,
+                "entries": 341065556,
                 "size": {
-                    "csvgz": 2382049587
+                    "csvgz": 2584027317
                 }
             },
             "columns": {
@@ -4274,7 +4274,7 @@
             "docs": "https://docs.internetdata.io/database/domain-dns/domain-dns-ns",
             "page": "https://internetdata.io/databases/domain-dns#domain-dns-ns",
             "sample": {
-                "cut": "2026-11-15",
+                "cut": "2026-11-22",
                 "rows": 100,
                 "files": {
                     "csv": "domain-dns-ns/domain_dns_ns_v1.sample.csv",
@@ -4282,9 +4282,9 @@
                 }
             },
             "database": {
-                "entries": 799357556,
+                "entries": 875832276,
                 "size": {
-                    "csvgz": 5151794944
+                    "csvgz": 5675004190
                 }
             },
             "columns": {
@@ -4403,7 +4403,7 @@
             "docs": "https://docs.internetdata.io/database/range-hosted-domains",
             "page": "https://internetdata.io/databases/range-hosted-domains",
             "sample": {
-                "cut": "2026-11-15",
+                "cut": "2026-11-22",
                 "rows": 100,
                 "files": {
                     "csv": "range-hosted-domains/range_hosted_domains_v1.sample.csv",
@@ -4411,9 +4411,9 @@
                 }
             },
             "database": {
-                "entries": 386967,
+                "entries": 393179,
                 "size": {
-                    "csvgz": 194874258
+                    "csvgz": 205034537
                 }
             },
             "columns": {
@@ -4450,7 +4450,7 @@
             "docs": "https://docs.internetdata.io/database/asn-hosted-domains",
             "page": "https://internetdata.io/databases/asn-hosted-domains",
             "sample": {
-                "cut": "2026-11-15",
+                "cut": "2026-11-22",
                 "rows": 100,
                 "files": {
                     "csv": "asn-hosted-domains/asn_hosted_domains_v1.sample.csv",
@@ -4458,9 +4458,9 @@
                 }
             },
             "database": {
-                "entries": 52321,
+                "entries": 52990,
                 "size": {
-                    "csvgz": 37081760
+                    "csvgz": 38626332
                 }
             },
             "columns": {

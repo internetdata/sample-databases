@@ -7,8 +7,8 @@ Each domain's IPv4 addresses from its A records, with CNAMEs followed, one addre
 | ID | `domain_dns_a_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 569,244,687 entries, 4.14 GB as CSV, on 2026-11-15 |
-| This sample | 100 rows from the 2026-11-15 build |
+| Full database | 616,716,442 entries, 4.50 GB as CSV, on 2026-11-22 |
+| This sample | 100 rows from the 2026-11-22 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+DNS+Database+evaluation&products=Domain+DNS+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-a) |
 | Docs | [docs.internetdata.io/database/domain-dns/domain-dns-a](https://docs.internetdata.io/database/domain-dns/domain-dns-a?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-a) |
 
@@ -33,7 +33,7 @@ Names are domains registered under the generic top-level domains and under .ee, 
 | --- | --- | --- | --- |
 | `name` | `string` | The domain or host name, lowercase, internationalized names in punycode (xn--). A www. name is listed only where its addresses differ from its domain's. | `-----kmew8x55zm.330141.com` |
 | `ip` | `ipaddress` | An IPv4 address the name resolves to, following any CNAME. A name with several addresses has a row for each. | `103.85.22.25` |
-| `last_seen` | `date` | The most recent day the name was resolved to this address. | `2026-11-14` |
+| `last_seen` | `date` | The most recent day the name was resolved to this address. | `2026-11-21` |
 
 ## The full database
 

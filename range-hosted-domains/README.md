@@ -7,8 +7,8 @@ Every announced IP range registered domains resolve to, with its AS, how many do
 | ID | `range_hosted_domains_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 386,967 entries, 186 MB as CSV, on 2026-11-15 |
-| This sample | 100 rows from the 2026-11-15 build |
+| Full database | 393,179 entries, 196 MB as CSV, on 2026-11-22 |
+| This sample | 100 rows from the 2026-11-22 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Range+Hosted+Domains+Database+evaluation&products=Range+Hosted+Domains+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) |
 | Docs | [docs.internetdata.io/database/range-hosted-domains](https://docs.internetdata.io/database/range-hosted-domains?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=range-hosted-domains) |
 
@@ -35,7 +35,7 @@ Teams read it to judge a range before they block, allow or report it, and filter
 | --- | --- | --- | --- |
 | `prefix` | `string` | An announced IPv4 or IPv6 prefix, as a CIDR. | `1.0.0.0/24` |
 | `asn` | `integer` | The Autonomous System Number announcing the prefix. | `13335` |
-| `total` | `integer` | How many registered domains resolve to an address in the prefix, through their own A or AAAA record or their www host's, each counted once. | `153` |
+| `total` | `integer` | How many registered domains resolve to an address in the prefix, through their own A or AAAA record or their www host's, each counted once. | `163` |
 | `domains` | `string` | Those domains, comma-separated, the most popular first: all of them, or the 1,000 most popular where there are more. Lowercase, internationalized names in punycode (xn--). | `fizzylizzybath.com,municipio.gob.pa,meal...` |
 
 ## The full database
