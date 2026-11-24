@@ -7,8 +7,8 @@ Every IP range mapped to continent, country, region and city, with the city's co
 | ID | `ip_geolocation_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 12,533,715 entries, 150 MB as CSV and 85.9 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 13,136,611 entries, 156 MB as CSV and 91.0 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Geolocation+Database+evaluation&products=IP+Geolocation+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-geolocation) |
 | Docs | [docs.internetdata.io/database/ip-geolocation](https://docs.internetdata.io/database/ip-geolocation?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-geolocation) |
 

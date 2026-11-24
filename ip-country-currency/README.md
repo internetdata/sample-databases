@@ -7,8 +7,8 @@ Every IP range mapped to its country's currency: the code, the name and the symb
 | ID | `ip_country_currency_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 925,772 entries, 6.66 MB as CSV and 3.97 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 930,583 entries, 6.69 MB as CSV and 3.99 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample and the full database: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Docs | [docs.internetdata.io/database/ip-country-currency](https://docs.internetdata.io/database/ip-country-currency?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-country-currency) |
 

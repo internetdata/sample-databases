@@ -7,8 +7,8 @@ Satellite internet address space, with the operator, its orbit and market, the s
 | ID | `satellite_ip_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 4,334 entries, 39.5 KB as CSV and 93.7 KB as MMDB, on 2026-11-16 |
-| This sample | 100 rows from the 2026-11-16 build |
+| Full database | 4,412 entries, 40.2 KB as CSV and 94.7 KB as MMDB, on 2026-11-23 |
+| This sample | 100 rows from the 2026-11-23 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Satellite+IP+Database+evaluation&products=Satellite+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=satellite-ip) |
 | Docs | [docs.internetdata.io/database/satellite-ip/satellite-ip](https://docs.internetdata.io/database/satellite-ip/satellite-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=satellite-ip) |
 

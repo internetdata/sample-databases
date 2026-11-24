@@ -7,8 +7,8 @@ Every IP range mapped to an IANA timezone, with its country.
 | ID | `ip_timezone_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 2,541,753 entries, 17.4 MB as CSV and 8.33 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 2,604,289 entries, 17.8 MB as CSV and 8.49 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample and the full database: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Docs | [docs.internetdata.io/database/ip-timezone](https://docs.internetdata.io/database/ip-timezone?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-timezone) |
 

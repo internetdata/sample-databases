@@ -7,8 +7,8 @@ Every IP range mapped to its continent and country, each as a code and a name, w
 | ID | `ip_country_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 2,541,921 entries, 21.2 MB as CSV and 8.36 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 2,604,436 entries, 21.7 MB as CSV and 8.51 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample and the full database: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Docs | [docs.internetdata.io/database/ip-country](https://docs.internetdata.io/database/ip-country?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-country) |
 

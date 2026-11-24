@@ -7,8 +7,8 @@ Every IP range mapped to its country's flag, as an emoji and its Unicode code po
 | ID | `ip_country_flag_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 925,772 entries, 7.40 MB as CSV and 3.98 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 930,583 entries, 7.44 MB as CSV and 3.99 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample and the full database: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Docs | [docs.internetdata.io/database/ip-country-flag](https://docs.internetdata.io/database/ip-country-flag?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-country-flag) |
 

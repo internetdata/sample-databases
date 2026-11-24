@@ -7,8 +7,8 @@ Mobile carrier address space, with the operator, its MCC and MNC, and the countr
 | ID | `carrier_ip_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 209,230 entries, 1.46 MB as CSV and 3.75 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 211,086 entries, 1.46 MB as CSV and 3.65 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Carrier+IP+Database+evaluation&products=Carrier+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=carrier-ip) |
 | Docs | [docs.internetdata.io/database/carrier-ip](https://docs.internetdata.io/database/carrier-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=carrier-ip) |
 

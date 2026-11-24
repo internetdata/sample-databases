@@ -7,8 +7,8 @@ Every address where a BitTorrent client was seen in the last 90 days, flagged ve
 | ID | `bittorrent_ip_v1` |
 | Formats | `csvgz` |
 | Update frequency | Daily |
-| Full database | 62,964,046 entries, 786 MB as CSV, on 2026-11-16 |
-| This sample | 100 rows from the 2026-11-16 build |
+| Full database | 75,420,539 entries, 960 MB as CSV, on 2026-11-23 |
+| This sample | 100 rows from the 2026-11-23 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=BitTorrent+IP+Database+evaluation&products=BitTorrent+IP+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=bittorrent-ip) |
 | Docs | [docs.internetdata.io/database/bittorrent-ip](https://docs.internetdata.io/database/bittorrent-ip?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=bittorrent-ip) |
 
@@ -31,13 +31,13 @@ Every IPv4 and IPv6 address where a BitTorrent client was seen in the last 90 da
 
 | Name | Type | Description | Example |
 | --- | --- | --- | --- |
-| `ip` | `ipaddress` | The IP address, IPv4 or IPv6, where a BitTorrent client was seen in the last 90 days. | `1.0.64.239` |
+| `ip` | `ipaddress` | The IP address, IPv4 or IPv6, where a BitTorrent client was seen in the last 90 days. | `1.0.64.33` |
 | `verified` | `boolean` | Whether the address is confirmed: a client there answered directly, or two or more other clients reported it at the same time. An unconfirmed address was reported by one client only, most often one behind NAT that cannot be reached from outside it. | `true` |
-| `id_matches_ip` | `boolean` | Whether a client at the address derived its identity on the network from the address itself, as clients that implement BEP 42 do (libtorrent, µTorrent and others): evidence a real client was there, confirmed or not. False where none did, often a client that does not implement BEP 42. | `true` |
-| `first_seen` | `date` | The first day in the 90-day window a BitTorrent client was seen at the address. | `2026-10-20` |
-| `last_seen` | `date` | The most recent day a BitTorrent client was seen at the address. | `2026-11-14` |
-| `last_reachable` | `date` | The most recent day a client at the address answered directly; empty when none did, as for a client behind NAT. | `2026-11-14` |
-| `days_seen` | `integer` | The number of days in the window a client was seen at the address. | `16` |
+| `id_matches_ip` | `boolean` | Whether a client at the address derived its identity on the network from the address itself, as clients that implement BEP 42 do (libtorrent, µTorrent and others): evidence a real client was there, confirmed or not. False where none did, often a client that does not implement BEP 42. | `false` |
+| `first_seen` | `date` | The first day in the 90-day window a BitTorrent client was seen at the address. | `2026-11-21` |
+| `last_seen` | `date` | The most recent day a BitTorrent client was seen at the address. | `2026-11-21` |
+| `last_reachable` | `date` | The most recent day a client at the address answered directly; empty when none did, as for a client behind NAT. | `2026-11-21` |
+| `days_seen` | `integer` | The number of days in the window a client was seen at the address. | `1` |
 | `num_ports` | `integer` | The number of distinct ports BitTorrent clients used at the address in the window. | `1` |
 | `peak_num_ports` | `integer` | The most distinct ports seen at the address on one day: about how many clients shared it at once, high on a VPN exit or a carrier's NAT. | `1` |
 | `indexer` | `boolean` | Whether the address runs an indexer or crawler of the BitTorrent network rather than ordinary clients: far more client identities than ports. | `false` |
