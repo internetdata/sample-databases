@@ -7,8 +7,8 @@ Announced IPv4 and IPv6 space mapped to its origin AS, with the holder and RPKI 
 | ID | `ip_asn_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 1,503,264 entries, 20.4 MB as CSV and 78.3 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 1,506,563 entries, 20.5 MB as CSV and 78.5 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample and the full database: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Docs | [docs.internetdata.io/database/ip-asn](https://docs.internetdata.io/database/ip-asn?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-asn) |
 

@@ -7,8 +7,8 @@ Every allocated or announced AS number with its holder, domain, network type, an
 | ID | `asn_v1` |
 | Formats | `csvgz` |
 | Update frequency | Daily |
-| Full database | 123,708 entries, 2.92 MB as CSV, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 123,821 entries, 2.93 MB as CSV, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample and the full database: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Docs | [docs.internetdata.io/database/asn/asn](https://docs.internetdata.io/database/asn/asn?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn) |
 

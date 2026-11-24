@@ -7,8 +7,8 @@ Reassignments published on network operators' RWHOIS servers, with their holders
 | ID | `ip_rwhois_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Weekly |
-| Full database | 191,600 entries, 5.78 MB as CSV and 10.2 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 206,240 entries, 6.08 MB as CSV and 11.0 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+RWHOIS+Database+evaluation&products=IP+RWHOIS+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-rwhois) |
 | Docs | [docs.internetdata.io/database/ip-rwhois](https://docs.internetdata.io/database/ip-rwhois?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-rwhois) |
 
@@ -41,24 +41,24 @@ Operators publish the blocks they reassign to their own customers on RWHOIS serv
 | `city` | `string` | City of the assignee. | `Princeton` |
 | `street` | `string` | Street address of the assignee. | `650 College Road suite 3100` |
 | `postal` | `string` | Postal code of the assignee. | `20170` |
-| `updated` | `date` | When the operator last changed the record. | `2026-10-16` |
+| `updated` | `date` | When the operator last changed the record. | `2025-03-08` |
 | `imported` | `date` | When our scan collected the record. | `2026-11-12` |
-| `parent` | `string` | The enclosing network the RWHOIS server names, if any. |  |
+| `parent` | `string` | The enclosing network the RWHOIS server names, if any. | `NET-184.104.0.0/15` |
 | `source` | `string` | The operator whose RWHOIS server published the network. | `rcn_net` |
-| `created` | `date` | When the operator created the record. | `2025-07-22` |
+| `created` | `date` | When the operator created the record. | `2016-05-19` |
 | `admin_name` | `string` | Name of the network's point of contact. | `Network Administrator` |
 | `admin_phone` | `string` | Phone number of the network's point of contact. | `888-869-4678` |
-| `admin_country` | `string` | ISO 3166 country code of the network's point of contact, where the server publishes contact objects. |  |
-| `admin_city` | `string` | City of the network's point of contact, where the server publishes contact objects. |  |
+| `admin_country` | `string` | ISO 3166 country code of the network's point of contact, where the server publishes contact objects. | `US` |
+| `admin_city` | `string` | City of the network's point of contact, where the server publishes contact objects. | `Centennial` |
 | `tech_name` | `string` | Name of the technical contact. | `Network Administrator` |
 | `tech_email` | `string` | Email of the technical contact. | `ipAdmin@hivelocity.net` |
 | `tech_phone` | `string` | Phone number of the technical contact. | `888-869-4678` |
-| `tech_country` | `string` | ISO 3166 country code of the technical contact, where the server publishes contact objects. |  |
-| `tech_city` | `string` | City of the technical contact, where the server publishes contact objects. |  |
+| `tech_country` | `string` | ISO 3166 country code of the technical contact, where the server publishes contact objects. | `US` |
+| `tech_city` | `string` | City of the technical contact, where the server publishes contact objects. | `Fremont` |
 | `abuse_name` | `string` | Name of the abuse contact. | `Hivelocity Abuse Department` |
 | `abuse_phone` | `string` | Phone number of the abuse contact. | `888-869-4678` |
-| `abuse_country` | `string` | ISO 3166 country code of the abuse contact, where the server publishes contact objects. |  |
-| `abuse_city` | `string` | City of the abuse contact, where the server publishes contact objects. |  |
+| `abuse_country` | `string` | ISO 3166 country code of the abuse contact, where the server publishes contact objects. | `US` |
+| `abuse_city` | `string` | City of the abuse contact, where the server publishes contact objects. | `Fremont` |
 
 ### MMDB (`mmdb`)
 

@@ -1809,7 +1809,7 @@
             "docs": "https://docs.internetdata.io/database/ip-asn",
             "page": "https://internetdata.io/databases/ip-asn",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "ip-asn/ip_asn_v1.sample.csv",
@@ -1818,10 +1818,10 @@
                 }
             },
             "database": {
-                "entries": 1503264,
+                "entries": 1506563,
                 "size": {
-                    "csvgz": 21427087,
-                    "mmdb": 82110494
+                    "csvgz": 21491116,
+                    "mmdb": 82329349
                 }
             },
             "columns": {
@@ -2189,7 +2189,7 @@
             "docs": "https://docs.internetdata.io/database/ip-rwhois",
             "page": "https://internetdata.io/databases/ip-rwhois",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "ip-rwhois/ip_rwhois_v1.sample.csv",
@@ -2198,10 +2198,10 @@
                 }
             },
             "database": {
-                "entries": 191600,
+                "entries": 206240,
                 "size": {
-                    "csvgz": 6065281,
-                    "mmdb": 10695273
+                    "csvgz": 6371611,
+                    "mmdb": 11503977
                 }
             },
             "columns": {
@@ -2372,7 +2372,7 @@
             "docs": "https://docs.internetdata.io/database/asn/asn",
             "page": "https://internetdata.io/databases/asn",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "asn/asn_v1.sample.csv",
@@ -2380,9 +2380,9 @@
                 }
             },
             "database": {
-                "entries": 123708,
+                "entries": 123821,
                 "size": {
-                    "csvgz": 3059321
+                    "csvgz": 3069660
                 }
             },
             "columns": {
@@ -2598,7 +2598,7 @@
             "docs": "https://docs.internetdata.io/database/asn-whois",
             "page": "https://internetdata.io/databases/asn-whois",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "asn-whois/asn_whois_v1.sample.csv",
@@ -2606,9 +2606,9 @@
                 }
             },
             "database": {
-                "entries": 118593,
+                "entries": 118709,
                 "size": {
-                    "csvgz": 13011602
+                    "csvgz": 12980153
                 }
             },
             "columns": {

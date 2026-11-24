@@ -7,8 +7,8 @@ The registry record of every AS number, with its holder and contacts.
 | ID | `asn_whois_v1` |
 | Formats | `csvgz` |
 | Update frequency | Daily |
-| Full database | 118,593 entries, 12.4 MB as CSV, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 118,709 entries, 12.4 MB as CSV, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=ASN+Whois+Database+evaluation&products=ASN+Whois+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-whois) |
 | Docs | [docs.internetdata.io/database/asn-whois](https://docs.internetdata.io/database/asn-whois?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-whois) |
 
@@ -33,17 +33,17 @@ Contacts are resolved to names, emails and phone numbers: admin and technical fr
 | `handle` | `string` | The AS name the registry holds (as-name), e.g. HETZNER-AS. | `IANA-RSVD-0` |
 | `name` | `string` | Name of the holding organization, else the name the ASN dataset gives it. | `Internet Assigned Numbers Authority` |
 | `org` | `string` | The registry's handle for the holding organization. | `IANA` |
-| `country` | `string` | ISO 3166 country code the registry assigned the ASN to. | `US` |
+| `country` | `string` | ISO 3166 country code the registry assigned the ASN to. | `IE` |
 | `source` | `string` | The registry the record comes from: arin, ripe, apnic, lacnic, afrinic, jpnic, krnic or idnic. | `arin` |
-| `status` | `string` | The registry's status for the ASN. | `ASSIGNED` |
+| `status` | `string` | The registry's status for the ASN. | `LEGACY` |
 | `created` | `date` | When the registry created the record; empty where it predates the registry recording it. | `2002-09-13` |
 | `updated` | `date` | When the registry last changed the record. | `2024-05-24` |
-| `descr` | `string` | The record's description lines, joined with " / ". | `INSTITUT NATIONAL DE L'INFORMATION GEOGR...` |
+| `descr` | `string` | The record's description lines, joined with " / ". | `AFNIC (Association Francaise pour le Nom...` |
 | `remarks` | `string` | The record's remarks, joined with " / ", without the notices registries add to every record. | `Reserved - May be used to identify non-r...` |
-| `admin` | `string` | Handles of the administrative contacts, pipe-separated. | `KW21-AP` |
-| `tech` | `string` | Handles of the technical contacts, pipe-separated. | `LIHD-ARIN` |
-| `abuse` | `string` | Handles of the abuse contacts, pipe-separated. | `AT1283-AP` |
-| `maintainer` | `string` | Handles of the maintainers allowed to change the record, pipe-separated. | `RIPE-NCC-END-MNT\|FR-NIC-MNT` |
+| `admin` | `string` | Handles of the administrative contacts, pipe-separated. | `LUK2` |
+| `tech` | `string` | Handles of the technical contacts, pipe-separated. | `LUK2` |
+| `abuse` | `string` | Handles of the abuse contacts, pipe-separated. | `LUK2` |
+| `maintainer` | `string` | Handles of the maintainers allowed to change the record, pipe-separated. | `RIPE-NCC-LEGACY-MNT\|ASIERA-MNT` |
 | `maintainer_email` | `string` | Emails of the record's maintainers, pipe-separated, where the registry publishes them (APNIC, IDNIC). | `helpdesk@apnic.net` |
 | `abuse_email` | `string` | Email of the ASN's abuse contact. | `abuse@iana.org` |
 | `abuse_name` | `string` | Name of the ASN's abuse contact. | `ICANN` |
@@ -68,7 +68,7 @@ Contacts are resolved to names, emails and phone numbers: admin and technical fr
 | `org_country` | `string` | ISO 3166 country code of the holding organization. | `US` |
 | `org_city` | `string` | City of the holding organization, where the registry states one (ARIN). | `Los Angeles` |
 | `abuse_validated` | `boolean` | 1 when ARIN reports that the abuse contact answered its yearly validation, else empty. The other registries publish no such state. | `1` |
-| `abuse_unvalidated_since` | `date` | The date since which the abuse contact has not answered ARIN's yearly validation; empty when it has, or where the registry does not say. | `2024-01-05` |
+| `abuse_unvalidated_since` | `date` | The date since which the abuse contact has not answered ARIN's yearly validation; empty when it has, or where the registry does not say. | `2010-06-15` |
 
 ## The full database
 
