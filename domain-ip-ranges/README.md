@@ -7,8 +7,8 @@ Every IP range an organization owns or uses, keyed by its domain, with the name 
 | ID | `domain_ip_ranges_v1` |
 | Formats | `csvgz` |
 | Update frequency | Daily |
-| Full database | 8,275,394 entries, 49.0 MB as CSV, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 9,057,836 entries, 60.1 MB as CSV, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+IP+Ranges+Database+evaluation&products=Domain+IP+Ranges+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-ip-ranges) |
 | Docs | [docs.internetdata.io/database/domain-ip-ranges/domain-ip-ranges](https://docs.internetdata.io/database/domain-ip-ranges/domain-ip-ranges?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-ip-ranges) |
 

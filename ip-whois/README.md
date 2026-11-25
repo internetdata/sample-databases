@@ -7,8 +7,8 @@ Every network record the registries publish, with its holder, status, contacts a
 | ID | `ip_whois_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 12,321,316 entries, 481 MB as CSV and 717 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 12,349,449 entries, 482 MB as CSV and 718 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Whois+Database+evaluation&products=IP+Whois+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-whois) |
 | Docs | [docs.internetdata.io/database/ip-whois](https://docs.internetdata.io/database/ip-whois?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-whois) |
 
@@ -42,15 +42,15 @@ The MMDB answers each address with the most specific record holding it, in fewer
 | `status` | `string` | The registry's assignment status, e.g. ALLOCATED PA, ASSIGNED PA, reassignment. | `ALLOCATED UNSPECIFIED` |
 | `tech` | `string` | Handles of the technical contacts, pipe-separated. | `ZC108-ARIN` |
 | `maintainer` | `string` | Handles of the maintainers allowed to change the record, pipe-separated. | `RIPE-NCC-HM-MNT` |
-| `admin` | `string` | Handles of the administrative contacts, pipe-separated. | `FM6-AFRINIC` |
+| `admin` | `string` | Handles of the administrative contacts, pipe-separated. | `IOM1-AFRINIC` |
 | `source` | `string` | Where the record comes from: the registry (arin, ripe, apnic, lacnic, afrinic, jpnic, krnic, twnic, idnic) or rwhois. | `ripe` |
-| `whois_domain` | `string` | The registrable domain of the record's contact emails. | `mindray.com` |
+| `whois_domain` | `string` | The registrable domain of the record's contact emails. | `orange.ma` |
 | `updated` | `date` | When the registry last changed the record. | `2021-12-06` |
-| `org` | `string` | The registry's handle for the holding organization. | `MN-233` |
-| `rdns_domain` | `string` | The registrable domain most reverse-DNS names inside the range belong to. | `mtel.gr` |
-| `domain` | `string` | The holder's domain: whois_domain, else rdns_domain. | `mindray.com` |
-| `geoloc` | `string` | Latitude and longitude the record states. | `40.523586351723324 22.203712463378906` |
-| `org_address` | `string` | Postal address of the holding organization. | `2100 GOLD NONE, SJ, CA, 95002` |
+| `org` | `string` | The registry's handle for the holding organization. | `C10910468` |
+| `rdns_domain` | `string` | The registrable domain most reverse-DNS names inside the range belong to. | `tzulo.com` |
+| `domain` | `string` | The holder's domain: whois_domain, else rdns_domain. | `tzulo.com` |
+| `geoloc` | `string` | Latitude and longitude the record states. | `51.35708618 1.13255405` |
+| `org_address` | `string` | Postal address of the holding organization. | `3471 W CENTURY BL, ING, CA, 90303` |
 | `asn` | `integer` | The ASN announcing the start of the range in global BGP. | `7018` |
 | `as_name` | `string` | Name of that ASN's operator. | `AT&T Enterprises, LLC` |
 | `as_domain` | `string` | Domain of that ASN's operator. | `att.com` |
@@ -58,34 +58,34 @@ The MMDB answers each address with the most specific record holding it, in fewer
 | `created` | `date` | When the registry created the record; empty where it predates the registry recording it. | `2021-12-06` |
 | `descr` | `string` | The record's description lines, joined with " / ". | `IPv4 address block not managed by the RI...` |
 | `parent` | `string` | The smallest other record whose range encloses this one, as start-end. | `12.0.0.0-12.255.255.255` |
-| `handle` | `string` | The registry's own handle for the record: ARIN's NetHandle, LACNIC's handle, an RWHOIS network's ID. Empty for RIPE, APNIC, AFRINIC and the national registries, which key a record by its range. | `NET-12-1-72-104-1` |
+| `handle` | `string` | The registry's own handle for the record: ARIN's NetHandle, LACNIC's handle, an RWHOIS network's ID. Empty for RIPE, APNIC, AFRINIC and the national registries, which key a record by its range. | `NET-12-1-71-56-1` |
 | `as_route` | `string` | The prefix announced in global BGP that holds the range's start address. | `12.0.0.0/9` |
 | `remarks` | `string` | The record's remarks, joined with " / ", without the notices registries add to every record. | `For registration information, / you can ...` |
-| `abuse_email` | `string` | Email of the record's abuse contact. | `d.bayani@mindray.com` |
-| `abuse_name` | `string` | Name of the record's abuse contact. | `Danny Bayani` |
-| `abuse_phone` | `string` | Phone number of the record's abuse contact. | `+1-201-825-8115` |
-| `abuse_kind` | `string` | What the abuse contact is: person, role (a role account) or irt (an incident response team). | `person` |
+| `abuse_email` | `string` | Email of the record's abuse contact. | `abuse@pldt.com.ph` |
+| `abuse_name` | `string` | Name of the record's abuse contact. | `ABUSE PLDTPH` |
+| `abuse_phone` | `string` | Phone number of the record's abuse contact. | `+1-800-555-1234` |
+| `abuse_kind` | `string` | What the abuse contact is: person, role (a role account) or irt (an incident response team). | `role` |
 | `abuse_country` | `string` | ISO 3166 country code of the abuse contact, where the registry states one (ARIN, APNIC, IDNIC). | `US` |
-| `abuse_city` | `string` | City of the abuse contact, where the registry states one (ARIN). | `IRVING` |
-| `admin_name` | `string` | Name of the administrative contact. | `Danny Bayani` |
-| `admin_email` | `string` | Email of the administrative contact. | `d.bayani@mindray.com` |
-| `admin_phone` | `string` | Phone number of the administrative contact. | `+1-201-825-8115` |
+| `abuse_city` | `string` | City of the abuse contact, where the registry states one (ARIN). | `Anytown` |
+| `admin_name` | `string` | Name of the administrative contact. | `Name Removed` |
+| `admin_email` | `string` | Email of the administrative contact. | `isp_oma@orange.ma` |
+| `admin_phone` | `string` | Phone number of the administrative contact. | `+212-665-551000` |
 | `admin_kind` | `string` | What the administrative contact is: person or role (a role account). | `person` |
 | `admin_country` | `string` | ISO 3166 country code of the administrative contact, where the registry states one (ARIN, APNIC, IDNIC). | `US` |
-| `admin_city` | `string` | City of the administrative contact, where the registry states one (ARIN). | `IRVING` |
-| `tech_name` | `string` | Name of the technical contact. | `Danny Bayani` |
-| `tech_email` | `string` | Email of the technical contact. | `d.bayani@mindray.com` |
-| `tech_phone` | `string` | Phone number of the technical contact. | `+1-201-825-8115` |
+| `admin_city` | `string` | City of the administrative contact, where the registry states one (ARIN). | `Anytown` |
+| `tech_name` | `string` | Name of the technical contact. | `Name Removed` |
+| `tech_email` | `string` | Email of the technical contact. | `isp_oma@orange.ma` |
+| `tech_phone` | `string` | Phone number of the technical contact. | `+212-665-551000` |
 | `tech_kind` | `string` | What the technical contact is: person or role (a role account). | `person` |
 | `tech_country` | `string` | ISO 3166 country code of the technical contact, where the registry states one (ARIN, APNIC, IDNIC). | `US` |
-| `tech_city` | `string` | City of the technical contact, where the registry states one (ARIN). | `IRVING` |
-| `org_name` | `string` | Name of the holding organization. | `MINDRAY NA` |
+| `tech_city` | `string` | City of the technical contact, where the registry states one (ARIN). | `Rego Park` |
+| `org_name` | `string` | Name of the holding organization. | `TARGET CORPORATION` |
 | `org_country` | `string` | ISO 3166 country code of the holding organization. | `US` |
-| `org_city` | `string` | City of the holding organization, where the registry states one (ARIN). | `SJ` |
+| `org_city` | `string` | City of the holding organization, where the registry states one (ARIN). | `ING` |
 | `maintainer_email` | `string` | Emails of the record's maintainers, pipe-separated, where the registry publishes them (APNIC, IDNIC). | `Noc_pldt@pldt.com.ph` |
-| `domain_maintainer` | `string` | Handles of the maintainers of the range's reverse DNS delegations (mnt-domains), pipe-separated. |  |
-| `abuse_validated` | `boolean` | 1 when ARIN reports that the abuse contact answered its yearly validation, else empty. The other registries publish no such state. |  |
-| `abuse_unvalidated_since` | `date` | The date since which the abuse contact has not answered ARIN's yearly validation; empty when it has, or where the registry does not say. | `2018-04-21` |
+| `domain_maintainer` | `string` | Handles of the maintainers of the range's reverse DNS delegations (mnt-domains), pipe-separated. | `HP1-MNT` |
+| `abuse_validated` | `boolean` | 1 when ARIN reports that the abuse contact answered its yearly validation, else empty. The other registries publish no such state. | `1` |
+| `abuse_unvalidated_since` | `date` | The date since which the abuse contact has not answered ARIN's yearly validation; empty when it has, or where the registry does not say. | `2025-02-08` |
 
 `as_type` is one of:
 
@@ -107,10 +107,10 @@ Each record is looked up by IP address and holds:
 | `name` | `string` | Name of the organization holding that record's range. | `IPv4 address block not managed by the RI...` |
 | `country` | `string` | ISO 3166 country code the record states. | `EU` |
 | `status` | `string` | The registry's assignment status. | `ALLOCATED UNSPECIFIED` |
-| `org` | `string` | The registry's handle for the holding organization. | `MN-233` |
+| `org` | `string` | The registry's handle for the holding organization. | `C10910468` |
 | `source` | `string` | The registry the record comes from, or rwhois. | `ripe` |
-| `abuse_email` | `string` | Email of the record's abuse contact. | `d.bayani@mindray.com` |
-| `domain` | `string` | The holder's domain. | `mindray.com` |
+| `abuse_email` | `string` | Email of the record's abuse contact. | `abuse@pldt.com.ph` |
+| `domain` | `string` | The holder's domain. | `tzulo.com` |
 | `asn` | `integer` | The ASN announcing the record's start address. | `7018` |
 
 ## The full database

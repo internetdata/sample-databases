@@ -7,8 +7,8 @@ Who takes abuse reports for every address range, with the email, phone and addre
 | ID | `ip_abuse_contact_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 4,205,646 entries, 68.7 MB as CSV and 237 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 4,226,374 entries, 68.9 MB as CSV and 238 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Abuse+Contact+Database+evaluation&products=IP+Abuse+Contact+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-abuse-contact) |
 | Docs | [docs.internetdata.io/database/ip-abuse-contact](https://docs.internetdata.io/database/ip-abuse-contact?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-abuse-contact) |
 

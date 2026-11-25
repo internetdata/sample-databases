@@ -7,8 +7,8 @@ Every registered domain in the generic top-level domains, .com, .net and .org am
 | ID | `domain_list_v1` |
 | Formats | `csvgz` |
 | Update frequency | Weekly |
-| Full database | 347,648,195 entries, 1.33 GB as CSV, on 2026-11-13 |
-| This sample | 100 rows from the 2026-11-13 build |
+| Full database | 366,923,094 entries, 1.39 GB as CSV, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+List+Database+evaluation&products=Domain+List+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-list) |
 | Docs | [docs.internetdata.io/database/domain-list](https://docs.internetdata.io/database/domain-list?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-list) |
 

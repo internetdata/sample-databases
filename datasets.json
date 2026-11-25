@@ -1615,7 +1615,7 @@
             "docs": "https://docs.internetdata.io/database/ip-company",
             "page": "https://internetdata.io/databases/ip-company",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "ip-company/ip_company_v1.sample.csv",
@@ -1624,10 +1624,10 @@
                 }
             },
             "database": {
-                "entries": 10822637,
+                "entries": 10862521,
                 "size": {
-                    "csvgz": 167477824,
-                    "mmdb": 314917063
+                    "csvgz": 173487577,
+                    "mmdb": 321638279
                 }
             },
             "columns": {
@@ -1722,7 +1722,7 @@
             "docs": "https://docs.internetdata.io/database/domain-ip-ranges/domain-ip-ranges",
             "page": "https://internetdata.io/databases/domain-ip-ranges",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "domain-ip-ranges/domain_ip_ranges_v1.sample.csv",
@@ -1730,9 +1730,9 @@
                 }
             },
             "database": {
-                "entries": 8275394,
+                "entries": 9057836,
                 "size": {
-                    "csvgz": 51342302
+                    "csvgz": 62968308
                 }
             },
             "columns": {
@@ -1769,7 +1769,7 @@
             "docs": "https://docs.internetdata.io/database/domain-ip-ranges/domain-ip-ranges-alias",
             "page": "https://internetdata.io/databases/domain-ip-ranges#domain-ip-ranges-alias",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "domain-ip-ranges-alias/domain_ip_ranges_alias_v1.sample.csv",
@@ -1777,9 +1777,9 @@
                 }
             },
             "database": {
-                "entries": 86813,
+                "entries": 396676,
                 "size": {
-                    "csvgz": 713843
+                    "csvgz": 2998296
                 }
             },
             "columns": {
@@ -1909,7 +1909,7 @@
             "docs": "https://docs.internetdata.io/database/ip-whois",
             "page": "https://internetdata.io/databases/ip-whois",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "ip-whois/ip_whois_v1.sample.csv",
@@ -1918,10 +1918,10 @@
                 }
             },
             "database": {
-                "entries": 12321316,
+                "entries": 12349449,
                 "size": {
-                    "csvgz": 504550833,
-                    "mmdb": 751648094
+                    "csvgz": 505175402,
+                    "mmdb": 753283727
                 }
             },
             "columns": {
@@ -2455,7 +2455,7 @@
             "docs": "https://docs.internetdata.io/database/asn/asn-extended",
             "page": "https://internetdata.io/databases/asn-extended",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "asn-extended/asn_extended_v1.sample.csv",
@@ -2463,9 +2463,9 @@
                 }
             },
             "database": {
-                "entries": 123708,
+                "entries": 123821,
                 "size": {
-                    "csvgz": 7566747
+                    "csvgz": 7617278
                 }
             },
             "columns": {
@@ -2790,7 +2790,7 @@
             "docs": "https://docs.internetdata.io/database/ip-abuse-contact",
             "page": "https://internetdata.io/databases/ip-abuse-contact",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "ip-abuse-contact/ip_abuse_contact_v1.sample.csv",
@@ -2799,10 +2799,10 @@
                 }
             },
             "database": {
-                "entries": 4205646,
+                "entries": 4226374,
                 "size": {
-                    "csvgz": 72022892,
-                    "mmdb": 248654964
+                    "csvgz": 72247641,
+                    "mmdb": 249609426
                 }
             },
             "columns": {
@@ -3676,7 +3676,7 @@
             "docs": "https://docs.internetdata.io/database/bgp-route",
             "page": "https://internetdata.io/databases/bgp-route",
             "sample": {
-                "cut": "2026-11-17",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "bgp-route/bgp_route_v1.sample.csv",
@@ -3684,9 +3684,9 @@
                 }
             },
             "database": {
-                "entries": 1449058,
+                "entries": 1452931,
                 "size": {
-                    "csvgz": 6232877
+                    "csvgz": 6262946
                 }
             },
             "columns": {
@@ -4106,7 +4106,7 @@
             "docs": "https://docs.internetdata.io/database/domain-list",
             "page": "https://internetdata.io/databases/domain-list",
             "sample": {
-                "cut": "2026-11-13",
+                "cut": "2026-11-24",
                 "rows": 100,
                 "files": {
                     "csv": "domain-list/domain_list_v1.sample.csv",
@@ -4114,9 +4114,9 @@
                 }
             },
             "database": {
-                "entries": 347648195,
+                "entries": 366923094,
                 "size": {
-                    "csvgz": 1427558342
+                    "csvgz": 1496091109
                 }
             },
             "columns": {

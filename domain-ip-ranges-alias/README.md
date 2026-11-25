@@ -7,8 +7,8 @@ The domains whose home page redirects to an organization's in Domain IP Ranges, 
 | ID | `domain_ip_ranges_alias_v1` |
 | Formats | `csvgz` |
 | Update frequency | Daily |
-| Full database | 86,813 entries, 697 KB as CSV, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 396,676 entries, 2.86 MB as CSV, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Domain+IP+Ranges+Database+evaluation&products=Domain+IP+Ranges+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-ip-ranges-alias) |
 | Docs | [docs.internetdata.io/database/domain-ip-ranges/domain-ip-ranges-alias](https://docs.internetdata.io/database/domain-ip-ranges/domain-ip-ranges-alias?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-ip-ranges-alias) |
 

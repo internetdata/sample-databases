@@ -7,8 +7,8 @@ ASN with each AS number's upstreams, peers and downstreams, its customer cone, i
 | ID | `asn_extended_v1` |
 | Formats | `csvgz` |
 | Update frequency | Daily |
-| Full database | 123,708 entries, 7.22 MB as CSV, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 123,821 entries, 7.26 MB as CSV, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=ASN+Extended+Database+evaluation&products=ASN+Extended+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-extended) |
 | Docs | [docs.internetdata.io/database/asn/asn-extended](https://docs.internetdata.io/database/asn/asn-extended?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=asn-extended) |
 
@@ -49,7 +49,7 @@ An AS number seen in no AS path keeps its row, with no rank and zeros elsewhere.
 | `rpki_valid` | `integer` | Announcements an RPKI ROA authorizes. | `0` |
 | `rpki_invalid` | `integer` | Announcements RPKI ROAs contradict: a wrong origin, or more specific than allowed. | `0` |
 | `rpki_not_found` | `integer` | Announcements no RPKI ROA covers. | `129` |
-| `rank` | `integer` | The ASN's place among all ASNs in global routing by the size of its customer cone, 1 the largest. Empty for an ASN seen in no AS path. | `6918` |
+| `rank` | `integer` | The ASN's place among all ASNs in global routing by the size of its customer cone, 1 the largest. Empty for an ASN seen in no AS path. | `6923` |
 | `tier1` | `boolean` | 1 when the ASN is one of the transit-free networks at the top of the routing hierarchy, which get transit from no one and peer with each other (Tier 1), else empty. |  |
 | `transit_degree` | `integer` | Distinct neighbors the ASN carries routes between: ASNs seen on either side of it in an AS path. 0 for a network that carries no one's routes. | `4` |
 | `customer_cone_asns` | `integer` | ASNs in the ASN's customer cone: itself, its customers, their customers and so on down. 0 for an ASN seen in no AS path. | `3` |

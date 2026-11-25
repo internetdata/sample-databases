@@ -7,8 +7,8 @@ Every announced BGP prefix with its origin AS, collector visibility and RPKI sta
 | ID | `bgp_route_v1` |
 | Formats | `csvgz` |
 | Update frequency | Daily |
-| Full database | 1,449,058 entries, 5.94 MB as CSV, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 1,452,931 entries, 5.97 MB as CSV, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=BGP+Route+Database+evaluation&products=BGP+Route+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=bgp-route) |
 | Docs | [docs.internetdata.io/database/bgp-route](https://docs.internetdata.io/database/bgp-route?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=bgp-route) |
 

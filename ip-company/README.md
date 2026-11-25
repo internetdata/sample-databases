@@ -7,8 +7,8 @@ The organization that uses each IP range, with its domain and type, and the AS t
 | ID | `ip_company_v1` |
 | Formats | `csvgz`, `mmdb` |
 | Update frequency | Daily |
-| Full database | 10,822,637 entries, 160 MB as CSV and 300 MB as MMDB, on 2026-11-17 |
-| This sample | 100 rows from the 2026-11-17 build |
+| Full database | 10,862,521 entries, 165 MB as CSV and 307 MB as MMDB, on 2026-11-24 |
+| This sample | 100 rows from the 2026-11-24 build |
 | License | This sample: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The full database: licensed per database, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=IP+Company+Database+evaluation&products=IP+Company+Database&utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-company) |
 | Docs | [docs.internetdata.io/database/ip-company](https://docs.internetdata.io/database/ip-company?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=ip-company) |
 
