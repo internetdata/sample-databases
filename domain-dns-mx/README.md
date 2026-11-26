@@ -21,7 +21,7 @@ Each domain's mail exchangers from its MX records, with their priorities, one re
 
 Each domain's MX records, one row per record: `host` is a mail exchanger and `priority` its preference, lowest tried first. A name under a CNAME lists the MX records of the name its chain ends at, as a sender would.
 
-A `host` of `.` is a null MX (RFC 7505): the domain publishes that it accepts no mail. Names are domains registered under the generic top-level domains and under .ee, .nu, .se, .sk and a few smaller country-code domains, their `www` names, and widely used names under other country-code domains such as .uk, .de and .fr: lowercase, internationalized ones in punycode (`xn--`).
+A `host` of `.` is a null MX (RFC 7505): the domain publishes that it accepts no mail. Names are domains registered under the generic top-level domains and under .ee, .fr, .nu, .se, .sk and a few smaller country-code domains, their `www` names, and widely used names under other country-code domains such as .uk, .de and .cn: lowercase, internationalized ones in punycode (`xn--`).
 
 `last_seen` is the most recent day the record was observed. A name with no MX record has no rows.
 

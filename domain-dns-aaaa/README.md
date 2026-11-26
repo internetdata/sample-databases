@@ -21,7 +21,7 @@ Each domain's IPv6 addresses from its AAAA records, with CNAMEs followed, one ad
 
 The IPv6 addresses each name resolves to, one row per name and address. A name under a CNAME lists the addresses its chain ends at, so `ip` is always an address, never an alias; the chain itself is in [Domain DNS CNAME](https://docs.internetdata.io/database/domain-dns/domain-dns-cname?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-aaaa).
 
-Names are domains registered under the generic top-level domains and under .ee, .nu, .se, .sk and a few smaller country-code domains, their `www` names, and widely used names under other country-code domains such as .uk, .de and .fr: lowercase, internationalized ones in punycode (`xn--`). A `www` name has rows only where its addresses differ from its domain's.
+Names are domains registered under the generic top-level domains and under .ee, .fr, .nu, .se, .sk and a few smaller country-code domains, their `www` names, and widely used names under other country-code domains such as .uk, .de and .cn: lowercase, internationalized ones in punycode (`xn--`). A `www` name has rows only where its addresses differ from its domain's.
 
 `last_seen` is the most recent day the name resolved to the address. A name with no AAAA record has no rows. IPv4 addresses are in [Domain DNS A](https://docs.internetdata.io/database/domain-dns/domain-dns-a?utm_source=github&utm_medium=referral&utm_campaign=sample-databases&utm_content=domain-dns-aaaa), in the same shape.
 

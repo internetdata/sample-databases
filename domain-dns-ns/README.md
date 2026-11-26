@@ -21,7 +21,7 @@ The nameservers each domain is delegated to, one per row.
 
 The nameservers each name is delegated to, one row per name and nameserver. Only a name's own delegation is listed: a name under a CNAME has no rows of its target's.
 
-Names are domains registered under the generic top-level domains and under .ee, .nu, .se, .sk and a few smaller country-code domains, their `www` names, and widely used names under other country-code domains such as .uk, .de and .fr: lowercase, internationalized ones in punycode (`xn--`).
+Names are domains registered under the generic top-level domains and under .ee, .fr, .nu, .se, .sk and a few smaller country-code domains, their `www` names, and widely used names under other country-code domains such as .uk, .de and .cn: lowercase, internationalized ones in punycode (`xn--`).
 
 `last_seen` is the most recent day the delegation was observed.
 
